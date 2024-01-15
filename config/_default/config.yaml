@@ -11,4 +11,8 @@ params:
     position: hero-end
   logo:
     header: "/assets/images/logo.png"
-    footer: "/assets/images/logo.png"
+    footer: "/assets/images/logo.png"  
+  posts:
+    default_image: true
+    index:
+      layout: grid
