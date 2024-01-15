@@ -1,22 +1,6 @@
 ---
 title: Main menu
 items:
-- title: News
-  target: "/news/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/agenda/"
-  kind: page
-  children: []
-- title: Team
-  target: "/team/"
-  kind: page
-  children: []
-- title: Organizations
-  target: "/organizations/"
-  kind: page
-  children: []
 - title: Projects
   target: "/projects/"
   kind: page
@@ -37,12 +21,16 @@ items:
     target: "/projects/r2r4-postgrowth/"
     kind: page
     children: []
-- title: Join us
-  target: "/join-us/"
-  kind: page
-  children: []
 - title: About
   target: "/about/"
+  kind: page
+  children: []
+- title: News
+  target: "/news/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/agenda/"
   kind: page
   children: []
 
