@@ -25,6 +25,10 @@ items:
     target: "/projects/prospera/"
     kind: page
     children: []
+  - title: Explicit
+    target: "/projects/explicit/"
+    kind: page
+    children: []
 - title: Join us
   target: "/join-us/"
   kind: page
