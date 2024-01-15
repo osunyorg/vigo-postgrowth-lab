@@ -33,4 +33,16 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Team
+  target: "/team/"
+  kind: page
+  children: []
+- title: Organizations
+  target: "/organizations/"
+  kind: page
+  children: []
+- title: Join us
+  target: "/join-us/"
+  kind: page
+  children: []
 
