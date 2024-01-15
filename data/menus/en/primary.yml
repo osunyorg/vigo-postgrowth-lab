@@ -5,10 +5,6 @@ items:
   target: "/projects/"
   kind: page
   children:
-  - title: Explicit
-    target: "/projects/explicit/"
-    kind: page
-    children: []
   - title: Postgrowth S.A
     target: "/projects/postgrowth-sa/"
     kind: page
