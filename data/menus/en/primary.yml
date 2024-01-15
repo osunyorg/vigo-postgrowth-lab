@@ -29,6 +29,10 @@ items:
     target: "/projects/explicit/"
     kind: page
     children: []
+  - title: Postgrowth S.A
+    target: "/projects/postgrowth-sa/"
+    kind: page
+    children: []
 - title: Join us
   target: "/join-us/"
   kind: page
