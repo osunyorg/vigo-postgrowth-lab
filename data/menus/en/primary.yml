@@ -5,10 +5,6 @@ items:
   target: "/projects/"
   kind: page
   children:
-  - title: Postgrowth S.A
-    target: "/projects/postgrowth-sa/"
-    kind: page
-    children: []
   - title: R2R4 Postgrowth
     target: "/projects/r2r4-postgrowth/"
     kind: page
