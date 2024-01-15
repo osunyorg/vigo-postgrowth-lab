@@ -21,4 +21,8 @@ items:
   target: "/projects/"
   kind: page
   children: []
+- title: Join us
+  target: "/join-us/"
+  kind: page
+  children: []
 
