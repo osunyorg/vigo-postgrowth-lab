@@ -20,7 +20,11 @@ items:
 - title: Projects
   target: "/projects/"
   kind: page
-  children: []
+  children:
+  - title: Prospera
+    target: "/projects/prospera/"
+    kind: page
+    children: []
 - title: Join us
   target: "/join-us/"
   kind: page
