@@ -17,10 +17,6 @@ items:
     target: "/projects/r2r4-postgrowth/"
     kind: page
     children: []
-- title: About
-  target: "/about/"
-  kind: page
-  children: []
 - title: News
   target: "/news/"
   kind: page
