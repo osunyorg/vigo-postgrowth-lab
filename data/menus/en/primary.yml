@@ -25,4 +25,8 @@ items:
   target: "/join-us/"
   kind: page
   children: []
+- title: About
+  target: "/about/"
+  kind: page
+  children: []
 
