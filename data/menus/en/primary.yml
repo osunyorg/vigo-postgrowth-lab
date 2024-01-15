@@ -4,11 +4,7 @@ items:
 - title: Projects
   target: "/projects/"
   kind: page
-  children:
-  - title: R2R4 Postgrowth
-    target: "/projects/r2r4-postgrowth/"
-    kind: page
-    children: []
+  children: []
 - title: About
   target: "/about/"
   kind: page
