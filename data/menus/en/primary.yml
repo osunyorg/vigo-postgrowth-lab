@@ -33,6 +33,10 @@ items:
     target: "/projects/postgrowth-sa/"
     kind: page
     children: []
+  - title: R2R4 Postgrowth
+    target: "/projects/r2r4-postgrowth/"
+    kind: page
+    children: []
 - title: Join us
   target: "/join-us/"
   kind: page
