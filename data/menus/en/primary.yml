@@ -45,4 +45,8 @@ items:
   target: "/join-us/"
   kind: page
   children: []
+- title: Media
+  target: "/media/"
+  kind: page
+  children: []
 
