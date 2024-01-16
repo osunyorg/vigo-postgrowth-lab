@@ -22,3 +22,47 @@ header#document-header
     .media 
         img
             aspect-ratio: 3/4
+
+@include media-breakpoint-up(desktop)
+    .page__home
+        .hero
+            max-height: none
+    .hero
+        background: #333333
+        z-index: 0
+        position: relative
+        overflow: hidden
+        height: 90vh
+        max-height: 400px
+        &::after
+            z-index: -1
+            content: ""
+            background: linear-gradient(0deg, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0) 40%)
+            position: absolute
+            left: 0
+            top: 0
+            right: 0
+            bottom: 0
+        .breadcrumb-nav
+            position: absolute
+            bottom: $spacing2
+            *, *:before
+                color: white !important
+        .content
+            hgroup,
+            > h1
+                position: absolute
+                bottom: $spacing4
+                color: white
+            figure
+                width: 100%
+                z-index: -1
+                position: absolute
+                left: 0
+                top: 0
+                right: 0
+                bottom: 0
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
