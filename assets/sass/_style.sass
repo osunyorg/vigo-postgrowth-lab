@@ -28,21 +28,33 @@ header#document-header
         .hero
             max-height: none
     .hero
-        background: #333333
+        background: #000000
         z-index: 0
         position: relative
         overflow: hidden
         height: 90vh
         max-height: 400px
+        &::after,
+        .content hgroup, 
+        .content > h1,
+        .breadcrumb
+            transition: opacity 2s ease
         &::after
             z-index: -1
             content: ""
-            background: linear-gradient(0deg, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0) 40%)
+            background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
             position: absolute
             left: 0
             top: 0
             right: 0
             bottom: 0
+        &:hover
+            .content hgroup,
+            .content > h1,
+            .breadcrumb
+                opacity: 0.1
+            &::after
+                opacity: 0
         .breadcrumb-nav
             position: absolute
             bottom: $spacing2
@@ -50,7 +62,8 @@ header#document-header
                 color: white !important
         .content
             hgroup,
-            > h1
+            > h1,
+            .breacrumbs
                 position: absolute
                 bottom: $spacing4
                 color: white

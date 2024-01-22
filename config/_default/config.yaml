@@ -16,3 +16,6 @@ params:
     default_image: true
     index:
       layout: grid
+  pages:
+    index:
+      layout: list
