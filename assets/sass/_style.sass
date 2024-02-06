@@ -18,64 +18,71 @@ header#document-header
                 .text
                     width: col(10)
 
+.block-pages 
+    .grid,
+    .cards,
+    .list
+        article 
+            .media
+                img
+                    object-fit: contain
 .post 
     .media 
         img
             aspect-ratio: 3/4
 
-@include media-breakpoint-up(desktop)
-    .page__home
+body.full-image.page__home
+    @include media-breakpoint-up(desktop)
         .hero
+            background: #000000
+            z-index: 0
+            position: relative
+            overflow: hidden
+            height: 90vh
             max-height: none
-    .hero
-        background: #000000
-        z-index: 0
-        position: relative
-        overflow: hidden
-        height: 90vh
-        max-height: 400px
-        &::after,
-        .content hgroup, 
-        .content > h1,
-        .breadcrumb
-            transition: opacity 2s ease
-        &::after
-            z-index: -1
-            content: ""
-            background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
-            position: absolute
-            left: 0
-            top: 0
-            right: 0
-            bottom: 0
-        &:hover
-            .content hgroup,
+            // max-height: 400px
+            &::after,
+            .content hgroup, 
             .content > h1,
             .breadcrumb
-                opacity: 0.1
+                transition: opacity 2s ease
             &::after
-                opacity: 0
-        .breadcrumb-nav
-            position: absolute
-            bottom: $spacing2
-            *, *:before
-                color: white !important
-        .content
-            hgroup,
-            > h1,
-            .breacrumbs
-                position: absolute
-                bottom: $spacing4
-                color: white
-            figure
-                width: 100%
                 z-index: -1
+                content: ""
+                background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
                 position: absolute
                 left: 0
                 top: 0
                 right: 0
                 bottom: 0
-                img
+            &:hover
+                .content hgroup,
+                .content > h1,
+                .breadcrumb
+                    opacity: 0.1
+                &::after
+                    opacity: 0
+            .breadcrumb-nav
+                position: absolute
+                bottom: $spacing2
+                *, *:before
+                    color: white !important
+            .content
+                hgroup,
+                > h1,
+                .breacrumbs
+                    position: absolute
+                    bottom: $spacing4
+                    color: white
+                figure
                     width: 100%
-                    height: 100%
-                    object-fit: cover
+                    z-index: -1
+                    position: absolute
+                    left: 0
+                    top: 0
+                    right: 0
+                    bottom: 0
+                    img
+                        width: 100%
+                        height: 100%
+                        object-fit: cover
