@@ -7,10 +7,19 @@ en:
   languageName: English
   params:
     social:
+      x: >-
+        https://twitter.com/post_growth
+      linkedin: >-
+        https://www.linkedin.com/company/postgrowth-lab/
+      youtube: >-
+        https://www.youtube.com/channel/UCao5M0Or1psRVfe-ulehn_w
   permalinks:
     posts: /news/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    publications: /publications/:year-:slug/
+    persons: /team/:slug/
+    researchers: /team/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
