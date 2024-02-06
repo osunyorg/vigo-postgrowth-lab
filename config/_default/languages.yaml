@@ -17,7 +17,6 @@ en:
     posts: /news/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    publications: /publications/:year-:slug/
     persons: /team/:slug/
     researchers: /team/:slug/publications/
   taxonomies:
