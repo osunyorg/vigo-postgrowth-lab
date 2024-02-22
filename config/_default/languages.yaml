@@ -21,6 +21,7 @@ en:
     events_categories: /agenda/:slug/
     publications: /publications/:year-:slug/
     persons: /team/:slug/
+    authors: /team/:slug/news/
     researchers: /team/:slug/publications/
   taxonomies:
     administrator: administrators
