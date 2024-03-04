@@ -1,7 +1,7 @@
 header#document-header
-    left: $spacing0
-    right: $spacing0
-    top: $spacing0
+    left: $spacing-2
+    right: $spacing-2
+    top: $spacing-2
     width: auto
     border-radius: 5px
     .container
@@ -12,11 +12,11 @@ header#document-header
     .block-chapter--alt_background
         background: none
         @include full-page
-            font-size: px2rem(36)
+            font-size: pxToRem(36)
             line-height: 150%
             .chapter
                 .text
-                    width: col(10)
+                    width: columns(10)
 
 .block-pages 
     .grid,
@@ -64,7 +64,7 @@ body.full-image.page__home
                     opacity: 0
             .breadcrumb-nav
                 position: absolute
-                bottom: $spacing2
+                bottom: $spacing-4
                 *, *:before
                     color: white !important
             .content
@@ -72,7 +72,7 @@ body.full-image.page__home
                 > h1,
                 .breacrumbs
                     position: absolute
-                    bottom: $spacing4
+                    bottom: $spacing-6
                     color: white
                 figure
                     width: 100%
