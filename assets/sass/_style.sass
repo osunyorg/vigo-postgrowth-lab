@@ -17,73 +17,80 @@ header#document-header
 body
     &.page__home
         &.full-image
-        @include media-breakpoint-up(desktop)
             .hero
-                background: #000000
-                z-index: 0
-                position: relative
-                overflow: hidden
-                height: 90vh
-                max-height: none
-                // max-height: 400px
-                &::after,
-                .content hgroup, 
-                .content > h1,
-                .breadcrumb
-                    transition: opacity 2s ease
-                &::after
-                    z-index: -1
-                    content: ""
-                    background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
-                    position: absolute
-                    left: 0
-                    top: 0
-                    right: 0
-                    bottom: 0
-                // &:hover
-                //     .content hgroup,
-                //     .content > h1,
-                //     .breadcrumb
-                //         opacity: 0.1
-                //     &::after
-                //         opacity: 0
-                .breadcrumb-nav
-                    position: absolute
-                    bottom: $spacing-4
-                    *, *:before
-                        color: white !important
-                .content
-                    hgroup,
-                    > h1,
-                    .breacrumbs
-                        position: absolute
-                        bottom: $spacing-6
-                        color: white
-                    figure
-                        width: 100%
+                margin-bottom: $spacing-4
+                @include media-breakpoint-up(desktop)
+                    background: #000000
+                    z-index: 0
+                    position: relative
+                    overflow: hidden
+                    height: 90vh
+                    max-height: none
+                    margin-bottom: $spacing-6
+                    &::after,
+                    .content hgroup, 
+                    .content > h1,
+                    .breadcrumb
+                        transition: opacity 2s ease
+                    &::after
                         z-index: -1
+                        content: ""
+                        background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
                         position: absolute
                         left: 0
                         top: 0
                         right: 0
                         bottom: 0
-                        img
+                    // &:hover
+                    //     .content hgroup,
+                    //     .content > h1,
+                    //     .breadcrumb
+                    //         opacity: 0.1
+                    //     &::after
+                    //         opacity: 0
+                    .breadcrumb-nav
+                        position: absolute
+                        bottom: $spacing-4
+                        *, *:before
+                            color: white !important
+                    .content
+                        hgroup,
+                        > h1,
+                        .breacrumbs
+                            position: absolute
+                            bottom: $spacing-6
+                            color: white
+                        figure
                             width: 100%
-                            height: 100%
-                            object-fit: cover
+                            z-index: -1
+                            position: absolute
+                            left: 0
+                            top: 0
+                            right: 0
+                            bottom: 0
+                            img
+                                width: 100%
+                                height: 100%
+                                object-fit: cover
     &.full-width
         .blocks 
             .block-chapter
                 background: none
-                line-height: 150%
                 .chapter
                     .text
-                        width: columns(10)
+                        @include media-breakpoint-up(desktop)
+                            width: columns(10)
+                            font-size: $lead-size-desktop
+                            line-height: 150%
                     .notes a
                         color: $yellow
+                        text-decoration: none
 
             .block-pages 
                 background-color: $black
+                padding: $block-space-y $grid-gutter
+                @include media-breakpoint-up(desktop)
+                    padding: $block-space-y-desktop $grid-gutter
                 .block-content
                     .top, .page-title 
                         a
@@ -108,18 +115,19 @@ body
                             .media
                                 img
                                     object-fit: contain
+            .block-posts, .block-pages 
+                .top a::after
+                    content: ''
 
         .block-pages
             &--grid, &--list:not(.with-description) ul:not(.title-only)
                 .grid article, li article .page-content
+                    padding-top: $spacing-2
+                    border-top: 1px solid $yellow
                     @include grid( 12, desktop)
                     align-items: center
                     width: 100%
-                    // position: initial
-                    // max-width: columns(3)
-                    border-bottom: 1px solid $yellow
                     margin-top: 0
-                    padding-top: $spacing-2
                     padding-bottom: $spacing-2
                     .page-title 
                         @include h2
@@ -134,6 +142,9 @@ body
                     @include media-breakpoint-up(desktop)
                         padding-top: $spacing-4
                         padding-bottom: $spacing-4
+                .grid article:first-child, li:first-child article .page-content
+                    padding-top: 0
+                    border: none
 
             &--grid .grid
                 display: block
