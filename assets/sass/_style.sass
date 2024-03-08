@@ -86,28 +86,28 @@ body
                         color: $yellow
                         text-decoration: none
 
-            .block-pages 
+            .block-pages--list:not(.with-description)
                 background-color: $black
-                padding: $block-space-y $grid-gutter
+                padding: $block-space-y 0
                 @include media-breakpoint-up(desktop)
-                    padding: $block-space-y-desktop $grid-gutter
+                    padding: $block-space-y-desktop 0
+                .block-content, .top a, .page-title a
+                    color: $white 
+                
                 .block-content
-                    .top, .page-title 
-                        a
-                            color: $white
-                    .list, .top
-                        width: 100%
-                        
+
                     @include grid( 10, xl)
                     @include media-breakpoint-up(xl)
+                        .page-content
+                            .page-title a
+                                @include media-breakpoint-up(desktop)
+                                    width: columns(3)
                         .top
                             display: block
                             width: columns(3)
                         .list
                             width: columns(9)
-                    color: $white 
-                    .page-title a
-                        color: $white
+
                     .grid,
                     .cards,
                     .list
@@ -119,45 +119,37 @@ body
                 .top a::after
                     content: ''
 
-        .block-pages
-            &--grid, &--list:not(.with-description) ul:not(.title-only)
-                .grid article, li article .page-content
-                    padding-top: $spacing-2
-                    border-top: 1px solid $yellow
-                    @include grid( 12, desktop)
-                    align-items: center
-                    width: 100%
-                    margin-top: 0
-                    padding-bottom: $spacing-2
-                    .page-title 
-                        @include h2
-                        a
-                            display: block
-                            &::after
-                                content: ""
-                        + p
-                            display: block
-                            @include media-breakpoint-up(desktop)
-                                width: columns(5)
-                    @include media-breakpoint-up(desktop)
-                        padding-top: $spacing-4
-                        padding-bottom: $spacing-4
-                .grid article:first-child, li:first-child article .page-content
-                    padding-top: 0
-                    border: none
-
-            &--grid .grid
-                display: block
-                width: 100% 
-                .page-title a
-                    @include media-breakpoint-up(desktop)
-                        width: columns(5)
-                .media
-                    display: none             
-            &--list:not(.with-description) ul:not(.title-only)
+        .block-pages--list:not(.with-description) ul:not(.title-only)
                 display: block
                 width: 100%
-                .page-title a
-                    @include media-breakpoint-up(desktop)
-                        width: columns(3)
-
+                li 
+                    margin-top: 0
+                    article 
+                        margin-top: 0
+                        .page-content
+                            padding-top: $spacing-2
+                            padding-bottom: $spacing-2
+                            border-top: 1px solid $yellow
+                            width: 100%
+                            margin-top: 0
+                            @include grid( 12, desktop)
+                            .page-title 
+                                @include h2
+                                a
+                                    display: block
+                                    &::after
+                                        content: ""
+                                    @include media-breakpoint-up(desktop)
+                                        width: columns(5)
+                                + p
+                                    display: block
+                                    margin: 0
+                                    @include media-breakpoint-up(desktop)
+                                        width: columns(5)
+                            @include media-breakpoint-up(desktop)
+                                align-items: center
+                                padding-top: $spacing-4
+                                padding-bottom: $spacing-4
+                    &:first-child article .page-content
+                        padding-top: 0
+                        border: none
