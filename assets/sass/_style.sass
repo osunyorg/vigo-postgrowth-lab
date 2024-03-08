@@ -43,7 +43,7 @@ body
                     &::after
                         z-index: -1
                         content: ""
-                        background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,.2) 40%)
+                        background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
                         position: absolute
                         left: 0
                         top: 0
@@ -80,6 +80,43 @@ body
                                 width: 100%
                                 height: 100%
                                 object-fit: cover
+    .hero
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding-bottom: var(--grid-gutter)
+        .breadcrumb
+            height: fit-content
+    .hero--image-landscape
+        position: relative
+        background-color: transparent
+        color: $white
+        .breadcrumb li
+            a, span, &::before
+                color: $white
+        .content figure
+            position: absolute
+            @include inset(0)
+            width: 100%
+            height: 100%
+            margin: 0
+            overflow: hidden
+            z-index: -1
+            &::after
+                z-index: 1
+                content: ""
+                background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
+                position: absolute
+                left: 0
+                top: 0
+                right: 0
+                bottom: 0
+            picture
+                height: 100%
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
     &.full-width
         .blocks 
             .block-chapter
@@ -168,6 +205,15 @@ body
                                 object-fit: cover
                                 width: 100%
                                 height: 100%
+                &::after
+                    z-index: 0
+                    content: ""
+                    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
+                    position: absolute
+                    left: 0
+                    top: 0
+                    right: 0
+                    bottom: 0
                                 
         .block-pages--list:not(.with-description) ul:not(.title-only)
                 display: block
