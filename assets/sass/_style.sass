@@ -8,7 +8,15 @@ header#document-header
         padding-left: 30px
         padding-right: 30px
 
+.menu
+    .nav-level-1 li a 
+        text-decoration: none
+        padding: $spacing-1 calc(2.5 * var(--spacing-1))
+        &:hover, &.active
+            text-decoration: none
+            color: $orange-main
 
+            
 .post 
     .media 
         img
@@ -83,8 +91,12 @@ body
                             font-size: $lead-size-desktop
                             line-height: 150%
                     .notes a
-                        color: $yellow
+                        font-size: $body-size
+                        color: $orange-text
                         text-decoration: none
+                        @include media-breakpoint-up(desktop)
+                            font-size: $body-size-desktop
+
 
             .block-pages--list:not(.with-description)
                 background-color: $black
@@ -177,7 +189,7 @@ body
                         .page-content
                             padding-top: $spacing-2
                             padding-bottom: $spacing-2
-                            border-top: 1px solid $yellow
+                            border-top: 1px solid $orange-main
                             width: 100%
                             margin-top: 0
                             @include grid( 12, desktop)
