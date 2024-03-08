@@ -19,3 +19,15 @@ params:
   pages:
     index:
       layout: list
+  image_sizes:
+    blocks:
+      call_to_action:
+        mobile:   375
+        tablet:   500
+        desktop:  1440
+    sections:
+      home:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1440
