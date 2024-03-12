@@ -154,9 +154,14 @@ body
                     @include grid( 10, xl)
                     @include media-breakpoint-up(xl)
                         .page-content
-                            .page-title a
+                            .page-title 
+                                a
+                                    @include media-breakpoint-up(desktop)
+                                        width: columns(3)
+                            &::after
                                 @include media-breakpoint-up(desktop)
-                                    width: columns(3)
+                                    width: columns(1)                                    
+
                         .top
                             display: block
                             width: columns(3)
