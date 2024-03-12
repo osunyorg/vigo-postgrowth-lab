@@ -37,7 +37,7 @@ body
     
     &.pages__section .block:last-child, &.posts__section div.posts
         margin-bottom: $spacing-4
-
+ 
 .hero
     display: flex
     flex-direction: column
@@ -47,6 +47,11 @@ body
         height: fit-content
         padding-bottom: var(--grid-gutter) 
         padding-top: var(--grid-gutter) 
+    &--with-image
+        .content
+            align-items: flex-end
+    &--image-landscape .content figure
+        margin: initial
     &--image-portrait, &--image-square
         .container
             display: flex
@@ -55,8 +60,7 @@ body
         figure
             margin-bottom: $spacing-4
 
-            
-.full-image .hero
+.full-image .hero, .posts__page .hero--with-image, .events__page .hero--with-image
     position: relative
     background-color: transparent
     color: $white
@@ -74,7 +78,7 @@ body
         &::after
             z-index: 1
             content: ""
-            background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
+            background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.25) 60%)
             position: absolute
             left: 0
             top: 0
@@ -86,7 +90,21 @@ body
                 width: 100%
                 height: 100%
                 object-fit: cover
+                object-position: top
+.persons__page 
+    .hero--with-image
+        .container
+            margin: 0
+            .content figure
+                min-width: calc((var(--column-width)* 4) + var(--grid-gutter)*(4 - 1))
+                margin: 0
+                border-radius: 0px
+                width: 100%
 
+.events__page .hero h1 span 
+    color: $orange-text
+
+            
 .page__home
     &.full-image .hero
         margin-bottom: $spacing-4
@@ -178,6 +196,7 @@ body.full-width
                     @include grid( 12, desktop)
                     .page-title 
                         @include h2
+                        padding: $spacing-1 0
                         a
                             display: block
                             &::after
@@ -272,13 +291,6 @@ body.full-width
         .block-persons
             .block-content
                 @include grid( 10, xl)
-                .persons
-                    .name
-                        @include h3
-                        + p
-                            @include meta
-                    .avatar
-                        border-radius: 0
                 @include media-breakpoint-up(xl)
                     .page-content
                         .page-title a
@@ -333,10 +345,19 @@ body.full-width
                 content: "View all projects"
             .block-posts .block-content .top .block-title a::after
                 content: "View all news"
+.block-persons
+    .block-content
+        .persons
+            .name
+                @include h3
+                + p
+                    @include meta
+            .avatar
+                border-radius: 0
 body:not(.full-width) 
     .document-content .block .block-content 
         @include media-breakpoint-up(desktop)
-            padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter));
+            padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter))
 
 .pages__section 
     .page-with-blocks
