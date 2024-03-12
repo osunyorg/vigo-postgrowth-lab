@@ -104,7 +104,10 @@ body
 .events__page .hero h1 span 
     color: $orange-text
 
-            
+.events--large .event .media
+    margin-left: 0
+    margin-right: 0
+       
 .page__home
     &.full-image .hero
         margin-bottom: $spacing-4
@@ -376,16 +379,26 @@ body:not(.full-width)
     .chapter .text .rich-text p:first-child::first-letter 
         @include h2
 
-    .post-sidebar
-        ul.post-infos
-            > li
-                border-top: 1px solid $orange-main
-                padding: $spacing-3 0
-            ul.share 
-                li
-                    margin: 0
-                    a 
-                        font-size: pxToRem(30)
-                        color: $orange-text
-            .reading-time
-                display: none
+
+.event-infos, .post-infos    
+    > li, > li:not(:last-child)
+        display: flex
+        gap: 1.5rem
+        justify-content: space-between
+        @include meta
+        border-top: 1px solid
+        border-color: $orange-main
+        padding: $spacing-3 0
+        span
+            @include meta
+        &.events-actions span
+            padding-bottom: $spacing-3
+    .reading-time
+        display: none
+            
+    ul.share 
+        li
+            margin: 0
+            a 
+                font-size: pxToRem(30)
+                color: $orange-text
