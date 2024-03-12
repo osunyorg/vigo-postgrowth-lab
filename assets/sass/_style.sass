@@ -89,10 +89,17 @@ body
         display: flex
         flex-direction: column
         justify-content: space-between
-        padding-bottom: var(--grid-gutter)
+        padding-bottom: 0
         .breadcrumb
             height: fit-content
-
+            padding-bottom: var(--grid-gutter)  
+        &--image-portrait, &--image-square
+            .container
+                display: flex
+                flex-direction: column
+                margin-bottom: 0
+            figure
+                margin-bottom: $spacing-4
     &.full-image .hero
         position: relative
         background-color: transparent
