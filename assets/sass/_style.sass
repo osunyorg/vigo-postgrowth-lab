@@ -83,7 +83,7 @@ body
         .block-posts, .block-pages 
             .top a::after
                 color: $orange-main
-                
+
         .block-pages--list:not(.with-description)
             background-color: $black
             .block-content, .top a, .page-title a
@@ -153,15 +153,46 @@ body
                         @include media-breakpoint-up(desktop)
                             font-size: $body-size-desktop
 
+            .block-chapter.block-titled .text
+                @include media-breakpoint-up(desktop)
+                    .rich-text
+                        p
+                            font-size: $h3-size-desktop
+                            font-family: $heading-font-family
+                            line-height: 140%
+                @include media-breakpoint-up(xl)
+                    display: grid
+                    width: 100%
+                    grid-template-areas: "a b" "a c"
+                    .top
+                        width: columns(3)
+                        grid-area: a
+                    .rich-text
+                        width: columns(9)
+                        grid-area: b
+                    .notes
+                        grid-area: c
+            .block-persons
+                .block-content
+                    @include grid( 10, xl)
+                    @include media-breakpoint-up(xl)
+                        .page-content
+                            .page-title 
+                                a
+                                    @include media-breakpoint-up(desktop)
+                                        width: columns(3)
+                        .top
+                            display: block
+                            width: columns(3)
+                                            
+                        .persons
+                            width: columns(9)
+
             .block-pages--list:not(.with-description)
                 padding: $block-space-y 0
-
                 @include media-breakpoint-up(desktop)
                     padding: $block-space-y-desktop 0
-
-                
                 .block-content
-
                     @include grid( 10, xl)
                     @include media-breakpoint-up(xl)
                         .page-content
@@ -173,25 +204,9 @@ body
                                 @include media-breakpoint-up(desktop)
                                     width: columns(1)                                    
 
-                        // .top
-                        //     display: block
-                        //     width: columns(3)
-                        //     .block-title 
-                        //         a
-                        //             &::before
-                        //                 position: initial
-                        //             &::after
-                        //                 content: "View all projects"
-                        //                 display: block
-                        //                 transition: none
-                        //                 transform: none
-                        //                 position: initial
-                        //                 font-family: $body-font-family
-                        //                 font-size: $body-size
-                        //                 @include media-breakpoint-up(desktop)
-                        //                     font-size: $body-size-desktop
-                        //                     padding-top: $spacing-2
-                        //             &:hover
+                        .top
+                            display: block
+                            width: columns(3)
                                             
                         .list
                             width: columns(9)
@@ -302,20 +317,22 @@ body
                 text-align: center
                 .name
                     @include h3
+                + li
+                    margin-top: var(--grid-gutter)
             @include media-breakpoint-up(desktop) 
                 display: flex
                 flex-wrap: wrap
                 justify-content: center
                 li
                     width: columns(4)
-    
+                    + li
+                        margin-top: 0
+
     &.full-width .blocks 
-            .block-pages--list:not(.with-description), .block-posts                     
+            .block-pages--list:not(.with-description), .block-posts                   
                 .block-content
                     @include media-breakpoint-up(desktop) 
                         .top
-                            display: block
-                            width: columns(3)
                             .block-title 
                                 a
                                     &::before
@@ -331,10 +348,11 @@ body
                                             font-size: $body-size-desktop
                                             padding-top: $spacing-2
 
-            .block-pages .block-content .top .block-title a::after
-                content: "View all projects"
-            .block-posts .block-content .top .block-title a::after
-                content: "View all news"
+            @include media-breakpoint-up(desktop)
+                .block-pages .block-content .top .block-title a::after
+                    content: "View all projects"
+                .block-posts .block-content .top .block-title a::after
+                    content: "View all news"
 
     &.pages__section .page-with-blocks
         .blocks 
