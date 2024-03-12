@@ -172,9 +172,17 @@ body
                         grid-area: b
                     .notes
                         grid-area: c
+
             .block-persons
                 .block-content
                     @include grid( 10, xl)
+                    .persons
+                        .name
+                            @include h3
+                            + p
+                                @include meta
+                        .avatar
+                            border-radius: 0
                     @include media-breakpoint-up(xl)
                         .page-content
                             .page-title 
@@ -187,6 +195,8 @@ body
                                             
                         .persons
                             width: columns(9)
+                            grid-template-columns: repeat(3, 1fr)
+
 
             .block-pages--list:not(.with-description)
                 padding: $block-space-y 0
