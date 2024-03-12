@@ -8,6 +8,8 @@ en:
   languageName: English
   params:
     social:
+      email: >-
+        postgrowth-lab@uvigo.es
       x: >-
         https://twitter.com/post_growth
       linkedin: >-
