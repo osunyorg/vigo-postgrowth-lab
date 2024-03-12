@@ -80,11 +80,15 @@ body
                                 width: 100%
                                 height: 100%
                                 object-fit: cover
-
+        .block-posts, .block-pages 
+            .top a::after
+                color: $orange-main
+                
         .block-pages--list:not(.with-description)
             background-color: $black
             .block-content, .top a, .page-title a
                 color: $white 
+
     .hero
         display: flex
         flex-direction: column
@@ -169,25 +173,25 @@ body
                                 @include media-breakpoint-up(desktop)
                                     width: columns(1)                                    
 
-                        .top
-                            display: block
-                            width: columns(3)
-                            .block-title 
-                                a
-                                    &::before
-                                        position: initial
-                                    &::after
-                                        content: "View all projects"
-                                        display: block
-                                        transition: none
-                                        transform: none
-                                        position: initial
-                                        font-family: $body-font-family
-                                        font-size: $body-size
-                                        @include media-breakpoint-up(desktop)
-                                            font-size: $body-size-desktop
-                                            padding-top: $spacing-2
-                                    &:hover
+                        // .top
+                        //     display: block
+                        //     width: columns(3)
+                        //     .block-title 
+                        //         a
+                        //             &::before
+                        //                 position: initial
+                        //             &::after
+                        //                 content: "View all projects"
+                        //                 display: block
+                        //                 transition: none
+                        //                 transform: none
+                        //                 position: initial
+                        //                 font-family: $body-font-family
+                        //                 font-size: $body-size
+                        //                 @include media-breakpoint-up(desktop)
+                        //                     font-size: $body-size-desktop
+                        //                     padding-top: $spacing-2
+                        //             &:hover
                                             
                         .list
                             width: columns(9)
@@ -200,9 +204,7 @@ body
                                 img
                                     object-fit: contain
 
-            .block-posts, .block-pages 
-                .top a::after
-                    content: ''
+
 
             .block-call_to_action 
                 position: relative
@@ -306,6 +308,33 @@ body
                 justify-content: center
                 li
                     width: columns(4)
+    
+    &.full-width .blocks 
+            .block-pages--list:not(.with-description), .block-posts                     
+                .block-content
+                    @include media-breakpoint-up(desktop) 
+                        .top
+                            display: block
+                            width: columns(3)
+                            .block-title 
+                                a
+                                    &::before
+                                        position: initial
+                                    &::after
+                                        display: block
+                                        transition: none
+                                        transform: none
+                                        position: initial
+                                        font-family: $body-font-family
+                                        font-size: $body-size
+                                        @include media-breakpoint-up(desktop)
+                                            font-size: $body-size-desktop
+                                            padding-top: $spacing-2
+
+            .block-pages .block-content .top .block-title a::after
+                content: "View all projects"
+            .block-posts .block-content .top .block-title a::after
+                content: "View all news"
 
     &.pages__section .page-with-blocks
         .blocks 
