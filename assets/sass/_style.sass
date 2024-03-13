@@ -8,6 +8,46 @@ header#document-header
         padding-left: 30px
         padding-right: 30px
 
+footer#document-footer
+    a
+        color: $orange-main
+    a:after svg
+        fill: black
+    h2
+        @include lead
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing-5
+
+    .footer-site, .footer-social
+        text-align: left
+
+    .footer-site 
+        address
+            span
+                line-height: 160%
+        .email, address, p[itemprop=name]
+            display: block
+            margin-top: $spacing-2
+    .footer-social
+        ul 
+            li.email
+                display: none
+            li::after
+                order: 1
+            li
+                order: 2
+    .footer-partners
+        display: flex
+        max-width: fit-content
+        flex-direction: column
+        justify-content: space-between
+        img
+            display: block
+    @include media-breakpoint-up(desktop)
+        .footer-partners
+            order: 0
+        .footer-site
+            order: 1
 .menu
     .nav-level-1 li a 
         text-decoration: none

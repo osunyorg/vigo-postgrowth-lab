@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="footer-site">
+    <h2>Contact Us</h2>
+    {{ partial "footer/site.html" }}
+    {{ with (or site.Params.social site.Data.website.social) }}
+    {{ with .email }}
+    <span class="email">
+      Email: <a href="mailto:{{ . }}" rel="noreferrer" title="Email" target="_blank">{{ . }}</a>
+    </span>
+    {{ end}}
+    {{end}}
+  </div>
+  <div class="footer-social">
+    <h2>Follow Us</h2>
+    {{ partial "footer/social.html" }}
+  </div>
+    {{ partial "footer/partners.html" . }}
+</div>
+{{ partial "footer/i18n.html" . }}
+<div class="container">
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" }}
+  </div>
+</div>
+
