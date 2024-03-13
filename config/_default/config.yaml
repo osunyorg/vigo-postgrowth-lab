@@ -20,14 +20,27 @@ params:
     index:
       layout: list
   image_sizes:
+    design_system:
+      lightbox:
+        disabled: true
     blocks:
       call_to_action:
-        mobile:   375
-        tablet:   500
-        desktop:  1440
+        mobile:   500
+        tablet:   800
+        desktop:  2000
     sections:
       home:
         hero:
-          mobile:   400
+          mobile:   500
           tablet:   800
-          desktop:  1440
+          desktop:  2000
+      pages:
+        hero:
+          mobile:   500
+          tablet:   800
+          desktop:  2000
+      persons:
+        hero_single:
+          mobile:   500
+          tablet:   1000
+          desktop:  415
