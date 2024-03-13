@@ -35,8 +35,9 @@ body
     main, main:not(.page-with-blocks)
         padding-bottom: 0
     
-    &.pages__section .block:last-child, &.posts__section div.posts
-        margin-bottom: $spacing-4
+    &.pages__section .blocks .block:last-child, &.posts__section div.posts, &.events__section .archive-link
+        padding-bottom: $spacing-4
+        margin-bottom: 0
  
 .hero
     display: flex
@@ -107,7 +108,7 @@ body
 .events--large .event .media
     margin-left: 0
     margin-right: 0
-       
+
 body.full-width.page__home
     &.full-image .hero
         margin-bottom: $spacing-4
@@ -238,6 +239,19 @@ body.full-width
                 padding-bottom: 0
 
     .blocks
+        .block-chapter
+            .chapter
+                .text
+                    @include media-breakpoint-up(desktop)
+                        width: columns(10)
+                        font-size: $lead-size-desktop
+                        line-height: 150%
+                .notes a
+                    font-size: $body-size
+                    color: $orange-text
+                    text-decoration: none
+                    @include media-breakpoint-up(desktop)
+                        font-size: $body-size-desktop
         .block-pages--list:not(.with-description) 
             padding: $block-space-y 0
             @include media-breakpoint-up(desktop)
@@ -274,39 +288,6 @@ body.full-width
                         .media
                             img
                                 object-fit: contain
-        .block-chapter
-            background: none
-            .chapter
-                .text
-                    @include media-breakpoint-up(desktop)
-                        width: columns(10)
-                        font-size: $lead-size-desktop
-                        line-height: 150%
-                .notes a
-                    font-size: $body-size
-                    color: $orange-text
-                    text-decoration: none
-                    @include media-breakpoint-up(desktop)
-                        font-size: $body-size-desktop
-
-            &.block-titled .text
-                .rich-text
-                    p
-                        @include h3
-                        font-family: $heading-font-family
-                        line-height: 140%
-                @include media-breakpoint-up(xl)
-                    display: grid
-                    width: 100%
-                    grid-template-areas: "a b" "a c"
-                    .top
-                        width: columns(3)
-                        grid-area: a
-                    .rich-text
-                        width: columns(9)
-                        grid-area: b
-                    .notes
-                        grid-area: c
 
         .block-persons
             .block-content
@@ -365,6 +346,30 @@ body.full-width
                 content: "View all projects"
             .block-posts .block-content .top .block-title a::after
                 content: "View all news"
+
+body.about
+    .block-chapter
+        background: none
+
+        &.block-titled .text
+            .rich-text
+                p
+                    @include h3
+                    font-family: $heading-font-family
+                    line-height: 140%
+            @include media-breakpoint-up(xl)
+                display: grid
+                width: 100%
+                grid-template-areas: "a b" "a c"
+                .top
+                    width: columns(3)
+                    grid-area: a
+                .rich-text
+                    width: columns(9)
+                    grid-area: b
+                .notes
+                    grid-area: c
+
 .block-persons
     .block-content
         .persons
@@ -376,10 +381,20 @@ body.full-width
                 border-radius: 0
 
 body:not(.full-width) 
+    &.posts__page, &.project-page, &.pages__section
+        .block-chapter--no_background
+            .chapter .text .rich-text p:first-child::first-letter 
+                @include h2
     .document-content .block .block-content 
         @include media-breakpoint-up(desktop)
             padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter))
-
+    .block-chapter 
+        figure
+            max-width: 100%
+            padding: var(--grid-gutter)
+            padding-top: 0
+        .text
+            order: 0
 .pages__section 
     .page-with-blocks
         .blocks 
@@ -392,11 +407,6 @@ body:not(.full-width)
         .content
             .lead
                 display: none
-
-.posts__page, .pages__section .block-chapter
-    .chapter .text .rich-text p:first-child::first-letter 
-        @include h2
-
 
 .event-infos, .post-infos    
     > li, > li:not(:last-child)
