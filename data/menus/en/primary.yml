@@ -2,7 +2,7 @@
 title: Main menu
 items:
 - title: Projects
-  target: "/projects/"
+  target: "/projects-1/"
   kind: page
   children: []
 - title: About
