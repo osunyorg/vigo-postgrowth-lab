@@ -24,6 +24,7 @@ en:
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     publications: /publications/:year-:slug/
+    organizations: /organizations/:slug/
     persons: /team/:slug/
     authors: /team/:slug/news/
     researchers: /team/:slug/publications/
