@@ -29,13 +29,15 @@ footer#document-footer
             display: block
             margin-top: $spacing-2
     .footer-social
-        ul 
+        ul.site-links
             li.email
                 display: none
             li::after
                 order: 1
+                margin-right: $spacing-2
             li
                 order: 2
+                flex-direction: row-reverse
     .footer-partners
         display: flex
         max-width: fit-content
@@ -44,10 +46,19 @@ footer#document-footer
         img
             display: block
     @include media-breakpoint-up(desktop)
+        .footer-partners, .footer-site, .footer-social
+            width: columns(3)
+        .footer-legals
+            display: flex
+            justify-content: space-around
+            width: 100%
+            .footer-credit
+                margin: 0
         .footer-partners
             order: 0
         .footer-site
             order: 1
+        
 .menu
     .nav-level-1 li a 
         text-decoration: none
