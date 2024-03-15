@@ -28,6 +28,10 @@ params:
         mobile:   500
         tablet:   800
         desktop:  2000
+      persons:
+        mobile:   80
+        tablet:   300
+        desktop:  500
     sections:
       home:
         hero:
