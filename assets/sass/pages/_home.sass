@@ -1,0 +1,63 @@
+body.full-width.page__home
+    &.full-image .hero
+        margin-bottom: $spacing-4
+        @include media-breakpoint-up(desktop)
+            background: #000000
+            z-index: 0
+            position: relative
+            overflow: hidden
+            height: 90vh
+            max-height: none
+            margin-bottom: $spacing-6
+            .content
+                hgroup,
+                > h1
+                    position: absolute
+                    bottom: $spacing-6
+    .blocks
+        .block-call_to_action 
+            position: relative
+            .block-content
+                padding-top: 0px
+                padding-bottom: 0px
+                .call_to_action--with-image
+                    padding-top: 0px
+                    padding-bottom: 0px            
+                    > div 
+                        z-index: 1
+                        padding-top: $spacing-6
+                        padding-bottom: $spacing-6
+                        .actions 
+                            a
+                                border: $btn-border
+                                &:hover
+                                    border: $btn-hover-border
+                        @include media-breakpoint-up(desktop)
+                            grid-column: 9 / 12
+                            min-width: columns(4)
+                            padding-top: $spacing-7
+                            padding-bottom: $spacing-7
+                        @include media-breakpoint-up(xl)
+                            min-width: columns(3)
+                            padding-top: $spacing-7
+                            padding-bottom: $spacing-7
+                            .description p
+                                line-height: 140%
+                    picture 
+                        position: absolute
+                        @include inset(0)
+                        width: 100%
+                        height: 100%
+                        img
+                            object-fit: cover
+                            width: 100%
+                            height: 100%
+            &::after
+                z-index: 0
+                content: ""
+                background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
+                position: absolute
+                left: 0
+                top: 0
+                right: 0
+                bottom: 0    

@@ -8,6 +8,14 @@ header#document-header
         padding-left: 30px
         padding-right: 30px
 
+.menu
+    .nav-level-1 li a 
+        text-decoration: none
+        padding: $spacing-1 calc(2.5 * var(--spacing-1))
+        &:hover, &.active
+            text-decoration: none
+            color: $orange-main
+
 footer#document-footer
     a
         color: $orange-main
@@ -47,10 +55,11 @@ footer#document-footer
             display: block
     @include media-breakpoint-up(desktop)
         .footer-partners, .footer-site, .footer-social
+            font-size: var(--meta-size)
             width: columns(3)
         .footer-legals
             display: flex
-            justify-content: space-around
+            justify-content: space-between
             width: 100%
             .footer-credit
                 margin: 0
@@ -58,39 +67,9 @@ footer#document-footer
             order: 0
         .footer-site
             order: 1
-        
-.menu
-    .nav-level-1 li a 
-        text-decoration: none
-        padding: $spacing-1 calc(2.5 * var(--spacing-1))
-        &:hover, &.active
-            text-decoration: none
-            color: $orange-main
-    
-.post 
-    .post-meta
-        @include meta
-    .media 
-        transition: background 0.3s
-        background-color: #808080
-        img
-            aspect-ratio: 3/4
-            mix-blend-mode: overlay
-            
-            
-    &:active, &:hover
-        .media 
-            background-color: #F4B058
 
-body
-    main, main:not(.page-with-blocks)
-        padding-bottom: 0
-    
-    &.pages__section .blocks .block:last-child, &.posts__section div.posts, &.events__section .archive-link
-        padding-bottom: $spacing-4
-        margin-bottom: 0
- 
 .hero
+    // Attacher le breadcrumb en bas du hero 
     display: flex
     flex-direction: column
     justify-content: space-between
@@ -99,385 +78,56 @@ body
         height: fit-content
         padding-bottom: var(--grid-gutter) 
         padding-top: var(--grid-gutter) 
+    
+    // Aligner les images en bas du hero 
     &--with-image
         .content
             align-items: flex-end
-    &--image-landscape .content figure
-        margin: initial
-    &--image-portrait, &--image-square
-        .container
-            display: flex
-            flex-direction: column
-            margin-bottom: 0
-        figure
-            margin-bottom: $spacing-4
 
-.full-image .hero, .posts__page .hero--with-image, .events__page .hero--with-image
-    position: relative
-    background-color: transparent
-    color: $white
-    .breadcrumb li
-        a, span, &::before
-            color: $white
-    .content figure
-        position: absolute
-        @include inset(0)
-        width: 100%
-        height: 100%
-        margin: 0
-        overflow: hidden
-        z-index: -1
-        &::after
-            z-index: 1
-            content: ""
-            background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.25) 60%)
-            position: absolute
-            left: 0
-            top: 0
-            right: 0
-            bottom: 0
-        picture
-            height: 100%
-            img
+// Gestion des images en arrière-plan à partir de la bodyclass
+.full-image 
+    .hero
+        position: relative
+        background-color: transparent
+        color: $white
+        .breadcrumb
+            li
+                a, 
+                span, 
+                &::before
+                    color: $white
+        .content 
+            figure
+                position: absolute
+                @include inset(0)
                 width: 100%
                 height: 100%
-                object-fit: cover
-                object-position: top
-.persons__page 
-    .hero--with-image
-        .container
-            margin: 0
-            .content figure
-                min-width: calc((var(--column-width)* 4) + var(--grid-gutter)*(4 - 1))
                 margin: 0
-                border-radius: 0px
-                width: 100%
-
-.events__page .hero h1 span 
-    color: $orange-text
-
-.events--large .event .media
-    margin-left: 0
-    margin-right: 0
-
-body.full-width.page__home
-    &.full-image .hero
-        margin-bottom: $spacing-4
-        @include media-breakpoint-up(desktop)
-            background: #000000
-            z-index: 0
-            position: relative
-            overflow: hidden
-            height: 90vh
-            max-height: none
-            margin-bottom: $spacing-6
-            .content
-                hgroup,
-                > h1
+                overflow: hidden
+                z-index: -1
+                &::after
+                    z-index: 1
+                    content: ""
+                    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.25) 60%)
                     position: absolute
-                    bottom: $spacing-6
-    .blocks
-        .block-posts, .block-pages 
-            .top a::after
-                content: ""
-                color: $orange-main
-
-        .block-pages--list:not(.with-description)
-            background-color: $black
-            .block-content, .top a, .page-title a
-                color: $white 
-            ul:not(.title-only) li article .page-content::after
-                @include media-breakpoint-up(desktop)
-                    background-image: url('../images/Union-white.svg')
-
-        .block-call_to_action 
-            position: relative
-            .block-content
-                padding-top: 0px
-                padding-bottom: 0px
-                .call_to_action--with-image
-                    padding-top: 0px
-                    padding-bottom: 0px            
-                    > div 
-                        z-index: 1
-                        padding-top: $spacing-6
-                        padding-bottom: $spacing-6
-                        .actions 
-                            a
-                                border: $btn-border
-                                &:hover
-                                    border: $btn-hover-border
-                        @include media-breakpoint-up(desktop)
-                            grid-column: 9 / 12
-                            min-width: columns(4)
-                            padding-top: $spacing-7
-                            padding-bottom: $spacing-7
-                        @include media-breakpoint-up(xl)
-                            min-width: columns(3)
-                            padding-top: $spacing-7
-                            padding-bottom: $spacing-7
-                            .description p
-                                line-height: 140%
-                    picture 
-                        position: absolute
-                        @include inset(0)
-                        width: 100%
-                        height: 100%
-                        img
-                            object-fit: cover
-                            width: 100%
-                            height: 100%
-            &::after
-                z-index: 0
-                content: ""
-                background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%)
-                position: absolute
-                left: 0
-                top: 0
-                right: 0
-                bottom: 0    
-
-body.full-width
-    .block-pages--list:not(.with-description) ul:not(.title-only)
-        display: block
-        width: 100%
-        li 
-            margin-top: 0
-            article 
-                margin-top: 0
-                .page-content
-                    padding-top: $spacing-2
-                    padding-bottom: $spacing-2
-                    border-top: 1px solid $orange-main
+                    left: 0
+                    top: 0
+                    right: 0
+                    bottom: 0
+            picture
+                height: 100%
+                img
                     width: 100%
-                    margin-top: 0
-                    @include grid( 12, desktop)
-                    .page-title 
-                        @include h2
-                        padding: $spacing-1 0
-                        a
-                            display: block
-                            &::after
-                                content: ""
-                            @include media-breakpoint-up(desktop)
-                                width: columns(5)
-                        + p
-                            display: block
-                            margin: 0
-                            @include media-breakpoint-up(desktop)
-                                width: columns(5)
-                    @include media-breakpoint-up(desktop)
-                        align-items: center
-                        padding-top: $spacing-5
-                        padding-bottom: $spacing-5
-                        &::after
-                            content: "\2192"
-                            color: transparent
-                            font-size: var(--grid-gutter)
-                            text-align: right
-                            width: columns(2)
-                            height: 40px
-                            background-image: url('../images/Union-orange.svg')
-                            background-repeat: no-repeat
-                            background-position-x: right
-                            background-position-y: center
-                            // background-color: $orange-main
-
-            &:first-child article .page-content
-                padding-top: 0
-                border: none 
-            &:last-child article .page-content
-                padding-bottom: 0
-
-    .blocks
-        .block-chapter
-            .chapter
-                .text
-                    @include media-breakpoint-up(desktop)
-                        width: columns(10)
-                        font-size: $lead-size-desktop
-                        line-height: 150%
-                .notes a
-                    font-size: $body-size
-                    color: $orange-text
-                    text-decoration: none
-                    @include media-breakpoint-up(desktop)
-                        font-size: $body-size-desktop
-        .block-pages--list:not(.with-description) 
-            padding: $block-space-y 0
-            @include media-breakpoint-up(desktop)
-                padding: $block-space-y-desktop 0
-            .block-content
-                .list
-                    li article .page-content::after
-                        @include media-breakpoint-up(desktop)
-                            background-image: url('../images/Union-black.svg')
-                @include grid( 10, xl)
-                @include media-breakpoint-up(xl)
-                    .page-content
-                        .page-title 
-                            a
-                                @include media-breakpoint-up(desktop)
-                                    width: columns(3)
-                        &::after
-                            @include media-breakpoint-up(desktop)
-                                width: columns(1)                                    
-
-                    .top
-                        display: block
-                        width: columns(3)
-                                        
-                    .list
-
-                        
-                        width: columns(9)
-
-                .grid,
-                .cards,
-                .list
-                    article 
-                        .media
-                            img
-                                object-fit: contain
-
-        .block-persons
-            .block-content
-                @include grid( 10, xl)
-                @include media-breakpoint-up(xl)
-                    .page-content
-                        .page-title a
-                            @include media-breakpoint-up(desktop)
-                                width: columns(3)
-                    .top
-                        display: block
-                        width: columns(3)
-                                        
-                    .persons
-                        width: columns(9)
-                        grid-template-columns: repeat(3, 1fr)
-
-        .block-features ul
-            li
-                background-color: $orange-main
-                padding: var(--grid-gutter)
-                text-align: center
-                .name
-                    @include h3
-                + li
-                    margin-top: var(--grid-gutter)
-            @include media-breakpoint-up(desktop) 
-                display: flex
-                flex-wrap: wrap
-                justify-content: center
-                li
-                    width: columns(4)
-                    + li
-                        margin-top: 0
-
-        .block-pages--list:not(.with-description), .block-posts                   
-            .block-content
-                @include media-breakpoint-up(desktop) 
-                    .top
-                        .block-title 
-                            a
-                                &::before
-                                    position: initial
-                                &::after
-                                    display: block
-                                    transition: none
-                                    transform: none
-                                    position: initial
-                                    font-family: $body-font-family
-                                    font-size: $body-size
-                                    @include media-breakpoint-up(desktop)
-                                        font-size: $body-size-desktop
-                                        padding-top: $spacing-2
-        @include media-breakpoint-up(desktop)
-            .block-pages .block-content .top .block-title a::after
-                content: "View all projects"
-            .block-posts .block-content .top .block-title a::after
-                content: "View all news"
-
-body.about
-    .block-chapter
-        background: none
-
-        &.block-titled .text
-            .rich-text
-                p
-                    @include h3
-                    font-family: $heading-font-family
-                    line-height: 140%
-            @include media-breakpoint-up(xl)
-                display: grid
-                width: 100%
-                grid-template-areas: "a b" "a c"
-                .top
-                    width: columns(3)
-                    grid-area: a
-                .rich-text
-                    width: columns(9)
-                    grid-area: b
-                .notes
-                    grid-area: c
-
-.block-persons
-    .block-content
-        .persons
-            .name
-                @include h3
-                + p
-                    @include meta
-            .avatar
-                border-radius: 0
-
-body:not(.full-width) 
-    &.posts__page, &.project-page, &.pages__section
-        .block-chapter--no_background
-            .chapter .text .rich-text p:first-child::first-letter 
-                @include h2
-    .document-content .block .block-content 
-        @include media-breakpoint-up(desktop)
-            padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter))
-    .block-chapter 
-        figure
-            max-width: 100%
-            padding: var(--grid-gutter)
-            padding-top: 0
-        .text
-            order: 0
-.pages__section 
-    .page-with-blocks
-        .blocks 
-            .block-pages--list:not(.with-description)
-                background: $orange-main
-                margin-bottom: 0px
-                ul:not(.title-only) li article .page-content
-                    border-color: $black
-    .hero
-        .content
-            .lead
-                display: none
-
-.event-infos, .post-infos    
-    > li, > li:not(:last-child)
-        display: flex
-        gap: 1.5rem
-        justify-content: space-between
-        @include meta
-        border-top: 1px solid
-        border-color: $orange-main
-        padding: $spacing-3 0
-        span
-            @include meta
-        &.events-actions span
-            padding-bottom: $spacing-3
-    .reading-time
-        display: none
-            
-    ul.share 
-        li
-            margin: 0
-            a 
-                font-size: pxToRem(30)
-                color: $orange-text
+                    height: 100%
+                    object-fit: cover
+                    object-position: top
+                    
+// .persons__page 
+//     .hero--with-image
+//         .container
+//             margin: 0
+//             .content figure
+//                 min-width: calc((var(--column-width)* 4) + var(--grid-gutter)*(4 - 1))
+//                 margin: 0
+//                 border-radius: 0px
+//                 width: 100%

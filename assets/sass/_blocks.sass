@@ -1,0 +1,151 @@
+.blocks
+    .block-chapter
+        &--no_background
+            .chapter 
+                .text 
+                    .rich-text 
+                        p:first-child::first-letter 
+                            initial-letter: 2
+                            padding-right: $spacing-1
+                            @include h2
+        &--accent_background
+            background: none
+            .chapter
+                color: black
+                .text
+                    @include in-page-without-sidebar
+                        width: columns(10)
+                        font-size: $lead-size-desktop
+                        line-height: 150%
+                    .notes a
+                        font-size: $body-size
+                        color: $orange-text
+                        text-decoration: none
+                        @include media-breakpoint-up(desktop)
+                            font-size: $body-size-desktop
+    .block-features
+        ul
+            li
+                background-color: $orange-main
+                padding: var(--grid-gutter)
+                .name
+                    @include h3
+                @include in-page-without-sidebar        
+                    text-align: center
+                    width: columns(4)
+                    + li
+                        margin-top: var(--grid-gutter)
+                        margin-top: 0
+            @include in-page-without-sidebar    
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+
+    .block-pages
+        &--list
+            background-color: $black
+            // Joli espace en haut et en bas
+            padding: $block-space-y 0
+            @include media-breakpoint-up(desktop)
+                padding: $block-space-y-desktop 0
+            .block-content
+                & * 
+                    color: $white 
+                .top 
+                    .block-title
+                        a::after
+                            display: block
+                            color: $orange-main
+                            content: "View all projects"
+                            font-family: $body-font-family
+                            font-size: $body-size
+                            margin-top: $spacing-1
+                            width: 100%
+                            transition: none
+                            transform: none
+                @include in-page-without-sidebar
+                    @include media-breakpoint-up(xxl)
+                        @include grid(10)
+                        .top
+                            width: columns(3)
+                ul.list
+                    display: block !important
+                    li
+                        article 
+                            .page-content
+                                border-top: 1px solid $orange-main
+                                // Espaces verticaux mobiles
+                                padding-top: $spacing-3
+                                padding-bottom: $spacing-2
+                                width: 100%
+                                // Pour afficher les parties côte à côte
+                                @include media-breakpoint-up(sm)
+                                    display: flex
+                                // Espaces verticaux plus grands en desktop
+                                @include media-breakpoint-up(lg)
+                                    padding-top: $spacing-5
+                                    padding-bottom: $spacing-5
+                                    // Flèche
+                                    &::after
+                                        content: ""
+                                        background-image: url('../images/Union-white.svg')
+                                        background-repeat: no-repeat
+                                        background-position-x: right
+                                        height: 40px
+                                        width: 40px
+                                .page-title 
+                                    @include h2
+                                    a
+                                        display: block
+                                        @include media-breakpoint-up(sm)
+                                            margin-right: var(--grid-gutter)
+                                            width: columns(5)
+                                        @include media-breakpoint-up(lg)
+                                            // Suppression de la flèche
+                                            &::after
+                                                content: ""
+                                        @include media-breakpoint-up(xxl)
+                                            width: columns(3)
+                                    + p
+                                        @include media-breakpoint-up(sm)
+                                            margin-top: 0
+                                            margin-right: var(--grid-gutter)
+                                            width: columns(7)
+                                        @include media-breakpoint-up(xxl)
+                                            width: columns(5)
+                        // Pas de filet ni de marge en haut pour le premier
+                        &:first-child 
+                            article 
+                                .page-content
+                                    padding-top: 0
+                                    border: none 
+                        // Trop de marge en bas
+                        &:last-child 
+                            article 
+                                .page-content
+                                    padding-bottom: 0
+
+    .block-persons
+        .block-content
+            .persons
+                .name
+                    @include h3
+                    + p
+                        @include meta
+                .avatar
+                    border-radius: 0
+
+        &.block-with-title
+            .block-content
+                @include in-page-without-sidebar
+                    @include grid( 10)
+                    .page-content
+                        .page-title 
+                            a
+                                width: columns(3)
+                    .top
+                        display: block
+                        width: columns(3)                 
+                    .persons
+                        width: columns(9)
+                        grid-template-columns: repeat(3, 1fr)
