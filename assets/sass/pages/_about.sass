@@ -1,7 +1,22 @@
 body.about
+    .blocks
+        .block-pages
+            &--list
+                background: $orange-main
+                margin-bottom: 0px
+                .block-content
+                    * 
+                        color: $black
+                    ul.list
+                        li 
+                            article 
+                                .page-content
+                                    border-color: $black
+                                    @include media-breakpoint-up(lg)
+                                        &::after
+                                            background-image: url('../images/Union-black.svg')
     .block-chapter
         background: none
-
         &.block-titled
             .text
                 @include media-breakpoint-up(xl)
@@ -22,6 +37,3 @@ body.about
                         @include h3
                         font-family: $heading-font-family
                         line-height: 140%
-    .blocks
-        .block-pages
-            

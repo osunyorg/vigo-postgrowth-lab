@@ -55,10 +55,11 @@ footer#document-footer
             display: block
     @include media-breakpoint-up(desktop)
         .footer-partners, .footer-site, .footer-social
+            font-size: var(--meta-size)
             width: columns(3)
         .footer-legals
             display: flex
-            justify-content: space-around
+            justify-content: space-between
             width: 100%
             .footer-credit
                 margin: 0
@@ -66,6 +67,22 @@ footer#document-footer
             order: 0
         .footer-site
             order: 1
+
+.hero
+    // Attacher le breadcrumb en bas du hero 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-bottom: 0
+    .breadcrumb
+        height: fit-content
+        padding-bottom: var(--grid-gutter) 
+        padding-top: var(--grid-gutter) 
+    
+    // Aligner les images en bas du hero 
+    &--with-image
+        .content
+            align-items: flex-end
 
 // Gestion des images en arrière-plan à partir de la bodyclass
 .full-image 
@@ -104,60 +121,13 @@ footer#document-footer
                     height: 100%
                     object-fit: cover
                     object-position: top
-.persons__page 
-    .hero--with-image
-        .container
-            margin: 0
-            .content figure
-                min-width: calc((var(--column-width)* 4) + var(--grid-gutter)*(4 - 1))
-                margin: 0
-                border-radius: 0px
-                width: 100%
-
-body:not(.full-width) 
-    .document-content .block .block-content 
-        @include media-breakpoint-up(desktop)
-            padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter))
-    .block-chapter 
-        figure
-            max-width: 100%
-            padding: var(--grid-gutter)
-            padding-top: 0
-        .text
-            order: 0
-.pages__section 
-    .page-with-blocks
-        .blocks 
-            .block-pages--list:not(.with-description)
-                background: $orange-main
-                margin-bottom: 0px
-                ul:not(.title-only) li article .page-content
-                    border-color: $black
-    .hero
-        .content
-            .lead
-                display: none
-
-// .event-infos, 
-// .post-infos    
-//     > li, > li:not(:last-child)
-//         display: flex
-//         gap: 1.5rem
-//         justify-content: space-between
-//         @include meta
-//         border-top: 1px solid
-//         border-color: $orange-main
-//         padding: $spacing-3 0
-//         span
-//             @include meta
-//         &.events-actions span
-//             padding-bottom: $spacing-3
-//     .reading-time
-//         display: none
-            
-//     ul.share 
-//         li
+                    
+// .persons__page 
+//     .hero--with-image
+//         .container
 //             margin: 0
-//             a 
-//                 font-size: pxToRem(30)
-//                 color: $orange-text
+//             .content figure
+//                 min-width: calc((var(--column-width)* 4) + var(--grid-gutter)*(4 - 1))
+//                 margin: 0
+//                 border-radius: 0px
+//                 width: 100%

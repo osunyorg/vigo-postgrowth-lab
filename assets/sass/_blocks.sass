@@ -1,25 +1,4 @@
 .blocks
-    // A quoi ça sert ?
-    .block-pages--list:not(.with-description),
-    .block-posts                   
-        .block-content
-            @include media-breakpoint-up(desktop) 
-                .top
-                    .block-title 
-                        a
-                            &::before
-                                position: initial
-                            &::after
-                                display: block
-                                transition: none
-                                transform: none
-                                position: initial
-                                font-family: $body-font-family
-                                font-size: $body-size
-                                @include media-breakpoint-up(desktop)
-                                    font-size: $body-size-desktop
-                                    padding-top: $spacing-2
-    
     .block-chapter
         &--no_background
             .chapter 
@@ -46,42 +25,49 @@
                             font-size: $body-size-desktop
     .block-features
         ul
-            @include media-breakpoint-up(desktop)
-                display: flex
-                flex-wrap: wrap
-                justify-content: center
             li
                 background-color: $orange-main
                 padding: var(--grid-gutter)
-                text-align: center
-                @include media-breakpoint-up(desktop)
-                    width: columns(4)
                 .name
                     @include h3
-                + li
-                    margin-top: var(--grid-gutter)
-                    @include media-breakpoint-up(desktop)
+                @include in-page-without-sidebar        
+                    text-align: center
+                    width: columns(4)
+                    + li
+                        margin-top: var(--grid-gutter)
                         margin-top: 0
+            @include in-page-without-sidebar    
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
 
     .block-pages
         &--list
+            background-color: $black
             // Joli espace en haut et en bas
             padding: $block-space-y 0
             @include media-breakpoint-up(desktop)
                 padding: $block-space-y-desktop 0
             .block-content
+                & * 
+                    color: $white 
                 .top 
                     .block-title
                         a::after
                             display: block
                             color: $orange-main
                             content: "View all projects"
+                            font-family: $body-font-family
+                            font-size: $body-size
                             margin-top: $spacing-1
                             width: 100%
-                @include media-breakpoint-up(xxl)
-                    @include grid(10)
-                    .top
-                        width: columns(3)
+                            transition: none
+                            transform: none
+                @include in-page-without-sidebar
+                    @include media-breakpoint-up(xxl)
+                        @include grid(10)
+                        .top
+                            width: columns(3)
                 ul.list
                     display: block !important
                     li
@@ -102,7 +88,7 @@
                                     // Flèche
                                     &::after
                                         content: ""
-                                        background-image: url('../images/Union-orange.svg')
+                                        background-image: url('../images/Union-white.svg')
                                         background-repeat: no-repeat
                                         background-position-x: right
                                         height: 40px
@@ -139,7 +125,6 @@
                                 .page-content
                                     padding-bottom: 0
 
-
     .block-persons
         .block-content
             .persons
@@ -149,85 +134,18 @@
                         @include meta
                 .avatar
                     border-radius: 0
-body.full-width
 
-    //         &:first-child article .page-content
-    //             padding-top: 0
-    //             border: none 
-    //         &:last-child article .page-content
-    //             padding-bottom: 0
-
-    // .blocks
-    //     .block-pages--list:not(.with-description) 
-    //         .block-content
-    //             .list
-    //                 li article .page-content::after
-    //                     @include media-breakpoint-up(desktop)
-    //                         background-image: url('../images/Union-black.svg')
-    //             @include grid( 10, xl)
-    //             @include media-breakpoint-up(xl)
-    //                 .page-content
-    //                     .page-title 
-    //                         a
-    //                             @include media-breakpoint-up(desktop)
-    //                                 width: columns(3)
-    //                     &::after
-    //                         @include media-breakpoint-up(desktop)
-    //                             width: columns(1)                                    
-
-    //                 .top
-    //                     display: block
-    //                     width: columns(3)
-                                        
-    //                 .list
-
-                        
-    //                     width: columns(9)
-
-    //             .grid,
-    //             .cards,
-    //             .list
-    //                 article 
-    //                     .media
-    //                         img
-    //                             object-fit: contain
-
-    //     .block-persons
-    //         .block-content
-    //             @include grid( 10, xl)
-    //             @include media-breakpoint-up(xl)
-    //                 .page-content
-    //                     .page-title a
-    //                         @include media-breakpoint-up(desktop)
-    //                             width: columns(3)
-    //                 .top
-    //                     display: block
-    //                     width: columns(3)
-                                        
-    //                 .persons
-    //                     width: columns(9)
-    //                     grid-template-columns: repeat(3, 1fr)
-
-    //     .block-features ul
-    //         li
-    //             background-color: $orange-main
-    //             padding: var(--grid-gutter)
-    //             text-align: center
-    //             .name
-    //                 @include h3
-    //             + li
-    //                 margin-top: var(--grid-gutter)
-    //         @include media-breakpoint-up(desktop) 
-    //             display: flex
-    //             flex-wrap: wrap
-    //             justify-content: center
-    //             li
-    //                 width: columns(4)
-    //                 + li
-    //                     margin-top: 0
-
-    //     @include media-breakpoint-up(desktop)
-    //         .block-pages .block-content .top .block-title a::after
-    //             content: "View all projects"
-    //         .block-posts .block-content .top .block-title a::after
-    //             content: "View all news"
+        &.block-with-title
+            .block-content
+                @include in-page-without-sidebar
+                    @include grid( 10)
+                    .page-content
+                        .page-title 
+                            a
+                                width: columns(3)
+                    .top
+                        display: block
+                        width: columns(3)                 
+                    .persons
+                        width: columns(9)
+                        grid-template-columns: repeat(3, 1fr)
