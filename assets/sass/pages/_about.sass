@@ -1,0 +1,27 @@
+body.about
+    .block-chapter
+        background: none
+
+        &.block-titled
+            .text
+                @include media-breakpoint-up(xl)
+                    display: grid
+                    width: 100%
+                    grid-template-areas: "a b" "a c"
+                    gap: var(--grid-gutter)
+                    .top
+                        width: columns(3)
+                        grid-area: a
+                    .rich-text
+                        width: columns(9)
+                        grid-area: b
+                    .notes
+                        grid-area: c
+                .rich-text
+                    p
+                        @include h3
+                        font-family: $heading-font-family
+                        line-height: 140%
+    .blocks
+        .block-pages
+            
