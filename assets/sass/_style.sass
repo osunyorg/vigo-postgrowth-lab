@@ -115,10 +115,6 @@ footer#document-footer
                 width: 100%
 
 body:not(.full-width) 
-    &.posts__page, &.project-page, &.pages__section
-        .block-chapter--no_background
-            .chapter .text .rich-text p:first-child::first-letter 
-                @include h2
     .document-content .block .block-content 
         @include media-breakpoint-up(desktop)
             padding-left: calc(calc((var(--column-width)* 5) + var(--grid-gutter)*(5 - 1)) + var(--grid-gutter))

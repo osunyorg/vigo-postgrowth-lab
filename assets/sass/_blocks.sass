@@ -21,6 +21,14 @@
                                     padding-top: $spacing-2
     
     .block-chapter
+        &--no_background
+            .chapter 
+                .text 
+                    .rich-text 
+                        p:first-child::first-letter 
+                            initial-letter: 2
+                            padding-right: $spacing-1
+                            @include h2
         &--accent_background
             background: none
             .chapter
