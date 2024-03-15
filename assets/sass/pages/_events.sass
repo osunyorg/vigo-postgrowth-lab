@@ -3,3 +3,16 @@
         .media 
             img
                 aspect-ratio: auto
+
+
+.events__page
+    .hero
+        .content
+            @include media-breakpoint-up(desktop)
+                align-items: center
+                .hero-text
+                    margin-top: 0
+                h1
+                    font-size: $h1-size-desktop-small
+                .lead
+                    font-size: $lead-size-desktop-small
