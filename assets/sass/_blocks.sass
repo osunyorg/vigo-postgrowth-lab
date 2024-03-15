@@ -149,3 +149,18 @@
                     .persons
                         width: columns(9)
                         grid-template-columns: repeat(3, 1fr)
+
+    .block-posts.block-titled
+        .block-content
+                .top 
+                    .block-title
+                        a::after
+                            display: block
+                            color: $orange-main
+                            content: "View all news"
+                            font-family: $body-font-family
+                            font-size: $body-size
+                            margin-top: $spacing-1
+                            width: 100%
+                            transition: none
+                            transform: none
