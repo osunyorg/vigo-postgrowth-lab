@@ -17,8 +17,8 @@ items:
   target: "/join-us/"
   kind: page
   children: []
-- title: Media
-  target: "/media/"
+- title: Agenda
+  target: "/agenda/"
   kind: page
   children: []
 
