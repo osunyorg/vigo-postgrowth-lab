@@ -15,7 +15,7 @@ params:
   posts:
     default_image: true
     index:
-      layout: grid
+      layout: list
   pages:
     index:
       layout: list
