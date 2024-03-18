@@ -4,9 +4,17 @@ header#document-header
     top: $spacing-2
     width: auto
     border-radius: 5px
+    nav
+        padding-bottom: $spacing-3
+        padding-top: $spacing-3
     .container
         padding-left: 30px
         padding-right: 30px
+
+@include media-breakpoint-up(desktop)
+    html.is-scrolling-down:not(.has-menu-opened)
+        header#document-header:not(:hover)
+            transform: translateY(-120%)
 
 .menu
     .nav-level-1 li a 
