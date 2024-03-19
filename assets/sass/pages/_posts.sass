@@ -1,11 +1,15 @@
 .post 
     .media 
-        transition: background 0.3s
-        background-color: #808080
-        img
-            aspect-ratio: 3/4
-            // Problem on http://localhost:1313/news/
-            // mix-blend-mode: overlay
+        picture
+            display: block
+            transition: background 0.3s
+            background-color: #808080 !important
+            img
+                //aspect-ratio: 3/4
+                object-fit: cover
+                // Problem on http://localhost:1313/news/
+                mix-blend-mode: overlay
     &:active, &:hover
         .media 
-            background-color: #F4B058
+            picture
+                background-color: #F4B058 !important
