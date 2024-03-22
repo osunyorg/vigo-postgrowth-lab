@@ -17,4 +17,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Team
+  target: "/team/"
+  kind: page
+  children: []
 
