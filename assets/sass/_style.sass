@@ -25,6 +25,8 @@ header#document-header
             color: $orange-main
 
 footer#document-footer
+    .container::first-child
+        @include grid(3,3)
     a
         color: $orange-main
     a:after svg
@@ -62,9 +64,11 @@ footer#document-footer
         img
             display: block
     @include media-breakpoint-up(desktop)
+
         .footer-partners, .footer-site, .footer-social
             font-size: var(--meta-size)
             width: columns(3)
+            // padding-left: var(--grid-gutter)
         .footer-legals
             display: flex
             justify-content: space-between
@@ -98,7 +102,7 @@ footer#document-footer
         position: relative
         background-color: transparent
         color: $white
-        .breadcrumb
+        .breadcrumbx
             li
                 a, 
                 span, 
