@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: postgrowth-lab.webs.uvigo.es
   summary:
     position: hero
   search:
