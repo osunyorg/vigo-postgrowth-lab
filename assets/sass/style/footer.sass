@@ -19,13 +19,14 @@ footer#document-footer
         .email, address, p[itemprop=name]
             display: block
             margin-top: $spacing-2
-    .footer-social
+    div.footer-social 
         ul.site-links
             li.email
                 display: none
             li::after
                 order: 1
                 margin-right: $spacing-2
+                padding: 0px
             li
                 order: 2
                 flex-direction: row-reverse
@@ -53,5 +54,5 @@ footer#document-footer
             order: 0
         .footer-site
             order: 1
-        .footer-site, .footer-social
+        .footer-site, div.footer-social
             padding-left: calc(var(--grid-gutter) + var(--column-width))
