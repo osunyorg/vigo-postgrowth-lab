@@ -1,0 +1,43 @@
+// Gestion des images en arrière-plan à partir de la bodyclass
+.page-full-image 
+    .hero
+        position: relative
+        background-color: transparent
+        color: $white
+        .breadcrumbx
+            li
+                a, 
+                span, 
+                &::before
+                    color: $white
+        .content 
+            figure
+                position: absolute
+                @include inset(0)
+                width: 100%
+                height: 100%
+                margin: 0
+                overflow: hidden
+                z-index: -1
+                &::after
+                    z-index: 1
+                    content: ""
+                    background: linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0) 60%)
+                    position: absolute
+                    left: 0
+                    top: 0
+                    right: 0
+                    bottom: 0
+            picture
+                height: 100%
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    object-position: top
+    .breadcrumb 
+        li
+            &,
+            a,
+            &::before
+                color: $white
