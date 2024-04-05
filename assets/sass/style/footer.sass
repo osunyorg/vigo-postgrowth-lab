@@ -1,0 +1,56 @@
+
+footer#document-footer
+    .container:first-child
+        @include grid(3,3)
+    a
+        color: $orange-main
+    a:after svg
+        fill: black
+    h2
+        @include lead
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing-5
+
+    .footer-site, .footer-social
+        text-align: left
+
+    .footer-site 
+        address
+            span
+                line-height: 160%
+        .email, address, p[itemprop=name]
+            display: block
+            margin-top: $spacing-2
+    .footer-social
+        ul.site-links
+            li.email
+                display: none
+            li::after
+                order: 1
+                margin-right: $spacing-2
+            li
+                order: 2
+                flex-direction: row-reverse
+    .footer-partners
+        display: flex
+        max-width: fit-content
+        flex-direction: column
+        justify-content: space-between
+        img
+            display: block
+    @include media-breakpoint-up(desktop)
+
+        .footer-partners, .footer-site, .footer-social
+            font-size: var(--meta-size)
+            width: columns(3)
+            // padding-left: var(--grid-gutter)
+        .footer-legals
+            display: flex
+            justify-content: space-between
+            width: 100%
+            .footer-credit
+                margin: 0
+        .footer-partners
+            order: 0
+        .footer-site
+            order: 1
