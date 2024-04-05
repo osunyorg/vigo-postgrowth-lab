@@ -1,0 +1,12 @@
+@include media-breakpoint-up(desktop)
+    html.is-scrolling-down:not(.has-menu-opened)
+        header#document-header:not(:hover)
+            transform: translateY(-120%)
+
+.menu
+    .nav-level-1 li a 
+        text-decoration: none
+        padding: $spacing-1 calc(2.5 * var(--spacing-1))
+        &:hover, &.active
+            text-decoration: none
+            color: $orange-main
