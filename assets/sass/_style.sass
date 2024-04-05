@@ -25,8 +25,7 @@ header#document-header
             color: $orange-main
 
 footer#document-footer
-    .container:first-child
-        @include grid(3,3)
+
     a
         color: $orange-main
     a:after svg
@@ -64,11 +63,12 @@ footer#document-footer
         img
             display: block
     @include media-breakpoint-up(desktop)
-
+        .container:first-child
+            @include grid(3,3)
+            //gap: calc(var(--grid-gutter) + var(--grid-gutter) + var(--column-width))
         .footer-partners, .footer-site, .footer-social
             font-size: var(--meta-size)
-            width: columns(3)
-            // padding-left: var(--grid-gutter)
+            //width: columns(3)
         .footer-legals
             display: flex
             justify-content: space-between
@@ -79,6 +79,8 @@ footer#document-footer
             order: 0
         .footer-site
             order: 1
+        .footer-site, .footer-social
+            padding-left: calc(var(--grid-gutter) + var(--column-width))
 
 .hero
     // Attacher le breadcrumb en bas du hero 
