@@ -1,14 +1,15 @@
 .hero
+    .breadcrumb
+        height: fit-content
+        padding-bottom: var(--grid-gutter) 
+        padding-top: var(--grid-gutter) 
+        
     @include media-breakpoint-up(desktop)
         // Attacher le breadcrumb en bas du hero 
         display: flex
         flex-direction: column
         justify-content: space-between
         padding-bottom: 0
-        .breadcrumb
-            height: fit-content
-            padding-bottom: var(--grid-gutter) 
-            padding-top: var(--grid-gutter) 
     
     // Aligner les images en bas du hero 
     &--with-image
