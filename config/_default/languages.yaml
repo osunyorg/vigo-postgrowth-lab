@@ -23,7 +23,9 @@ en:
     events_categories: /agenda/:slug/
     publications: /publications/:year-:slug/
     organizations: /organizations/:slug/
+    organizations_categories: /organizations/:slug/
     persons: /people/:slug/
+    persons_categories: /people/:slug/
     authors: /people/:slug/news/
     researchers: /people/:slug/publications/
   taxonomies:
@@ -32,6 +34,8 @@ en:
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
