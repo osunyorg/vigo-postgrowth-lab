@@ -24,9 +24,9 @@ items:
 - title: Degrowth for all!
   target: "/post-growth-for-all/"
   kind: page
-  children: []
-- title: ConcienciArte
-  target: "/concienciarte/"
-  kind: page
-  children: []
+  children:
+  - title: ConcienciArte
+    target: "/concienciarte/"
+    kind: page
+    children: []
 
