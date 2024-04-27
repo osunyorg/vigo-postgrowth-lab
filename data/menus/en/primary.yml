@@ -25,4 +25,8 @@ items:
   target: "/post-growth-for-all/"
   kind: page
   children: []
+- title: ConcienciArte
+  target: "/concienciarte/"
+  kind: page
+  children: []
 
