@@ -21,4 +21,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Degrowth for all!
+  target: "/post-growth-for-all/"
+  kind: page
+  children: []
 
