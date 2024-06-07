@@ -23,9 +23,9 @@ en:
     events_categories: /agenda/:slug/
     publications: /publications/:year-:slug/
     organizations: /organizations/:slug/
-    organizations_categories: /organizations/:slug/
+    organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
-    persons_categories: /people/:slug/
+    persons_categories: /people/categories/:slug/
     authors: /people/:slug/news/
     researchers: /people/:slug/publications/
   taxonomies:
