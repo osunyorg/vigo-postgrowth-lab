@@ -1,9 +1,9 @@
 footer#document-footer
-
     a
         color: $orange-main
-    a:after svg
-        fill: black
+        &::after
+            svg
+                fill: black
     h2
         @include lead
         @include media-breakpoint-up(desktop)
