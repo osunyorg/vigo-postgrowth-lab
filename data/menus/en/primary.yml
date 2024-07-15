@@ -1,20 +1,20 @@
 ---
 title: Main menu
 items:
-- title: Projects
-  target: "/projects/"
-  kind: page
-  children: []
-- title: Our Publications
-  target: "/our-publications/"
-  kind: page
-  children: []
 - title: About
   target: "/about/"
   kind: page
   children: []
 - title: Team
   target: "/team/"
+  kind: page
+  children: []
+- title: Projects
+  target: "/projects/"
+  kind: page
+  children: []
+- title: Our Publications
+  target: "/our-publications/"
   kind: page
   children: []
 - title: News
