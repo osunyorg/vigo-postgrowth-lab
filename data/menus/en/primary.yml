@@ -5,6 +5,10 @@ items:
   target: "/projects/"
   kind: page
   children: []
+- title: Our Publications
+  target: "/our-publications/"
+  kind: page
+  children: []
 - title: About
   target: "/about/"
   kind: page
@@ -19,10 +23,6 @@ items:
   children: []
 - title: Agenda
   target: "/agenda/"
-  kind: page
-  children: []
-- title: Our Publications
-  target: "/our-publications/"
   kind: page
   children: []
 
