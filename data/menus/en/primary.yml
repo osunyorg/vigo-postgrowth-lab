@@ -13,7 +13,7 @@ items:
   target: "/projects/"
   kind: page
   children: []
-- title: Our Publications
+- title: Publications
   target: "/our-publications/"
   kind: page
   children: []
