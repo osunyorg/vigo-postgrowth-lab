@@ -21,4 +21,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Our Publications
+  target: "/our-publications/"
+  kind: page
+  children: []
 
