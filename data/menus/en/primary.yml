@@ -13,6 +13,10 @@ items:
     target: "/team/job-offers/"
     kind: page
     children: []
+- title: Members
+  target: "/team/"
+  kind: page
+  children: []
 - title: Projects
   target: "/projects/"
   kind: page
@@ -27,10 +31,6 @@ items:
   children: []
 - title: Agenda
   target: "/agenda/"
-  kind: page
-  children: []
-- title: Members
-  target: "/team/"
   kind: page
   children: []
 
