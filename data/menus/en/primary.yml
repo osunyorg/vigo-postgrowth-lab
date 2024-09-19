@@ -9,7 +9,7 @@ items:
   target: "/team/"
   kind: page
   children:
-  - title: Members
+  - title: Members, collaborators and visitors
     target: "/team/"
     kind: page
     children: []
