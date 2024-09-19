@@ -9,12 +9,12 @@ items:
   target: "/team/"
   kind: page
   children:
-  - title: Job Offers
-    target: "/team/job-offers/"
-    kind: page
-    children: []
   - title: Members
     target: "/team/"
+    kind: page
+    children: []
+  - title: Job Offers
+    target: "/team/job-offers/"
     kind: page
     children: []
 - title: Projects
