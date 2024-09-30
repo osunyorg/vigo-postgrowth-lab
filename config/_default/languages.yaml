@@ -17,13 +17,11 @@ en:
       youtube: >-
         https://www.youtube.com/channel/UCao5M0Or1psRVfe-ulehn_w
   permalinks:
-    posts: /news/:year-:month-:day-:slug/
-    posts_categories: /news/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    posts: /news/:year-:month-:day-:slug/
+    posts_categories: /news/:slug/
     publications: /publications/:year-:slug/
-    organizations: /organizations/:slug/
-    organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
     authors: /people/:slug/news/
