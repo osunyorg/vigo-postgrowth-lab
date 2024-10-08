@@ -5,12 +5,12 @@ items:
   target: ''
   kind: blank
   children: []
-- title: Accessibility
-  target: "/accessibility/"
-  kind: page
-  children: []
 - title: Legal terms
   target: "/legal-terms/"
+  kind: page
+  children: []
+- title: Accessibility
+  target: "/accessibility/"
   kind: page
   children: []
 
