@@ -48,6 +48,12 @@ footer#document-footer
             display: flex
             justify-content: space-between
             width: 100%
+            ul.nav-legal
+                li
+                    display: inline
+                    a
+                        @include meta
+                        margin-right: $spacing-2
             .footer-credit
                 margin: 0
         .footer-partners
