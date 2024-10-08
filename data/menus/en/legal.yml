@@ -5,12 +5,12 @@ items:
   target: "/legal-terms/"
   kind: page
   children: []
-- title: Copyright© 2024 - Post-Growth InnovationLab
-  target: ''
-  kind: blank
-  children: []
 - title: Accessibility
   target: "/accessibility/"
   kind: page
+  children: []
+- title: Copyright© 2024 - Post-Growth InnovationLab
+  target: ''
+  kind: blank
   children: []
 
