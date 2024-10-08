@@ -9,6 +9,10 @@ items:
   target: "/accessibility/"
   kind: page
   children: []
+- title: Privacy policy
+  target: "/privacy-policy/"
+  kind: page
+  children: []
 - title: Copyright© 2024 - Post-Growth InnovationLab
   target: ''
   kind: blank
