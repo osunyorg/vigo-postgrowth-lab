@@ -13,4 +13,28 @@ city: >-
   Pontevedra
 country: >-
   Spain
+contact_details:
+  postal_address:
+    data:
+      address: >-
+        Rúa Benito Corbal, 45
+      address_additional: >-
+        Entrada Javier Puig 1-3
+      zipcode: >-
+        36001
+      city: >-
+        Pontevedra
+      country: >-
+        name: >-
+          Spain
+        alpha2: >-
+          ES
+        alpha3: >-
+          ESP
+      country: >-
+        Spain
+    text: >-
+      Rúa Benito Corbal, 45 Entrada Javier Puig 1-3 36001 Pontevedra SPAIN
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Rúa Benito Corbal, 45</span> <span itemprop="description">Entrada Javier Puig 1-3</span> <span itemprop="postalCode">36001</span> <span itemprop="addressLocality">Pontevedra</span> <span itemprop="addressCountry">SPAIN</span></address>
 ---
