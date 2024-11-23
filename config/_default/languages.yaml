@@ -24,6 +24,7 @@ en:
     publications: /publications/:year-:slug/
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
+    authors: /people/:slug/news/
     researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
