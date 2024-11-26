@@ -5,14 +5,17 @@ items:
   target: "/legal-terms/"
   kind: page
   children: []
+  file: content/en/pages/legal-terms/_index.html
 - title: Accessibility
   target: "/accessibility/"
   kind: page
   children: []
+  file: content/en/pages/accessibility/_index.html
 - title: Privacy policy
   target: "/privacy-policy/"
   kind: page
   children: []
+  file: content/en/pages/privacy-policy/_index.html
 - title: Copyright© 2024 - Post-Growth InnovationLab
   target: ''
   kind: blank
