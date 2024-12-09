@@ -7,15 +7,30 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      email: >-
-        postgrowth-lab@uvigo.es
-      x: >-
-        https://twitter.com/post_growth
-      linkedin: >-
-        https://www.linkedin.com/company/postgrowth-lab/
-      youtube: >-
-        https://www.youtube.com/channel/UCao5M0Or1psRVfe-ulehn_w
+    contact_details:
+      emails:
+        email:
+          label: >-
+            postgrowth-lab@uvigo.es
+          value: >-
+            mailto:postgrowth-lab@uvigo.es
+      social_networks:
+        linkedin:
+          label: >-
+            postgrowth-lab
+          value: >-
+            https://www.linkedin.com/company/postgrowth-lab/
+        x:
+          label: >-
+            post_growth
+          value: >-
+            https://x.com/post_growth
+        youtube:
+          label: >-
+            channelUCao5M0Or1psRVfe-ulehn_w
+          value: >-
+            https://www.youtube.com/@channelUCao5M0Or1psRVfe-ulehn_w
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
