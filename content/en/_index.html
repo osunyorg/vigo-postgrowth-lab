@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   Home
 url: "/"
+slug: ""
 date: 2023-12-04T11:50:18+01:00
 lastmod: 2024-09-30T11:00:12+02:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/en/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2023-12-04T11:50:18+01:00
@@ -111,9 +112,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/projects/"
+        permalink: "/projects/"
+        path: "/pages/projects"
         slug: "projects"
-        file: "pages/projects/_index.html"
+        file: "content/en/pages/projects/_index.html"
       options:
         image: false
         main_summary: false
@@ -121,18 +123,19 @@ contents:
 
       layout: list
       pages:
-        - path: "/projects/prospera/"
+        - permalink: "/projects/prospera/"
+          path: "/pages/projects/prospera"
           slug: "prospera"
-          file: "pages/projects/prospera/_index.html"
-          external: false
-        - path: "/projects/explicit/"
+          file: "content/en/pages/projects/prospera/_index.html"
+        - permalink: "/projects/explicit/"
+          path: "/pages/projects/explicit"
           slug: "explicit"
-          file: "pages/projects/explicit/_index.html"
-          external: false
-        - path: "/projects/postgrowth-sa/"
+          file: "content/en/pages/projects/explicit/_index.html"
+        - permalink: "/projects/postgrowth-sa/"
+          path: "/pages/projects/postgrowth-sa"
           slug: "postgrowth-sa"
-          file: "pages/projects/postgrowth-sa/_index.html"
-          external: false
+          file: "content/en/pages/projects/postgrowth-sa/_index.html"
+
 
 
   - kind: block
@@ -158,9 +161,19 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-12-09-mario-pansera-visits-rikkyo-university"
-        - "2024/2024-11-06-alejandro-fortuny-pcc-mombasa"
-        - "2024/2024-10-14-just2ce-four-stories-of-circular-economy"
+        - permalink: "/news/2024-12-09-mario-pansera-visits-rikkyo-university/"
+          path: "/posts/2024/2024-12-09-mario-pansera-visits-rikkyo-university"
+          slug: "mario-pansera-visits-rikkyo-university"
+          file: "content/en/posts/2024/2024-12-09-mario-pansera-visits-rikkyo-university.html"
+        - permalink: "/news/2024-11-06-alejandro-fortuny-pcc-mombasa/"
+          path: "/posts/2024/2024-11-06-alejandro-fortuny-pcc-mombasa"
+          slug: "alejandro-fortuny-pcc-mombasa"
+          file: "content/en/posts/2024/2024-11-06-alejandro-fortuny-pcc-mombasa.html"
+        - permalink: "/news/2024-10-14-just2ce-four-stories-of-circular-economy/"
+          path: "/posts/2024/2024-10-14-just2ce-four-stories-of-circular-economy"
+          slug: "just2ce-four-stories-of-circular-economy"
+          file: "content/en/posts/2024/2024-10-14-just2ce-four-stories-of-circular-economy.html"
+
 
 
   - kind: block
