@@ -5,6 +5,7 @@ items:
   target: "/about/"
   kind: page
   children: []
+  path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Team
   target: "/team/"
@@ -14,31 +15,38 @@ items:
     target: "/team/"
     kind: page
     children: []
+    path: "/pages/team"
     file: content/en/pages/team/_index.html
   - title: Job Offers
     target: "/team/job-offers/"
     kind: page
     children: []
+    path: "/pages/team/job-offers"
     file: content/en/pages/team/job-offers/_index.html
+  path: "/pages/team"
   file: content/en/pages/team/_index.html
 - title: Projects
   target: "/projects/"
   kind: page
   children: []
+  path: "/pages/projects"
   file: content/en/pages/projects/_index.html
 - title: Publications
   target: "/our-publications/"
   kind: page
   children: []
+  path: "/pages/our-publications"
   file: content/en/pages/our-publications/_index.html
 - title: News
   target: "/news/"
   kind: page
   children: []
+  path: "/posts"
   file: content/en/posts/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
   children: []
+  path: "/events"
   file: content/en/events/_index.html
 
