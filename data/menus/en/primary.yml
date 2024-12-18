@@ -4,22 +4,26 @@ items:
 - title: About
   target: "/about/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Team
   target: "/team/"
   kind: page
+  new_tab: false
   children:
   - title: Members, collaborators and visitors
     target: "/team/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/team"
     file: content/en/pages/team/_index.html
   - title: Job Offers
     target: "/team/job-offers/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/team/job-offers"
     file: content/en/pages/team/job-offers/_index.html
@@ -28,24 +32,28 @@ items:
 - title: Projects
   target: "/projects/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/projects"
   file: content/en/pages/projects/_index.html
 - title: Publications
   target: "/our-publications/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/our-publications"
   file: content/en/pages/our-publications/_index.html
 - title: News
   target: "/news/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/en/events/_index.html
