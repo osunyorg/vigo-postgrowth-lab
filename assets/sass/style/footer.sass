@@ -32,18 +32,17 @@ footer#document-footer
                 flex-direction: row-reverse
     .footer-partners
         display: flex
-        max-width: fit-content
         flex-direction: column
         justify-content: space-between
+        max-width: fit-content
+        gap: $spacing-3
         img
             display: block
     @include media-breakpoint-up(desktop)
         .container:first-child
             @include grid(3,3)
-            //gap: calc(var(--grid-gutter) + var(--grid-gutter) + var(--column-width))
         .footer-partners, .footer-site, .footer-social
             font-size: var(--meta-size)
-            //width: columns(3)
         .footer-legals
             display: flex
             justify-content: space-between

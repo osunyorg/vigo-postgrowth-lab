@@ -26,14 +26,23 @@ body.full-width.page__home
                 padding-bottom: 0px
                 .call_to_action--with-image
                     padding-top: 0px
-                    padding-bottom: 0px            
+                    padding-bottom: 0px
+                    .description
+                        @include h2
+                        color: var(--color-background)
                     > div 
                         z-index: 1
                         padding-top: $spacing-6
                         padding-bottom: $spacing-6
-                        .actions 
+                        .actions
                             a
-                                border: $btn-border
+                                &:first-child
+                                    --btn-background: transparent
+                                    --btn-border: 1px solid var(--color-background)
+                                    --btn-color: var(--color-background)
+                                    --btn-hover-background: var(--color-background)
+                                    --btn-hover-border: var(--btn-border)
+                                    --btn-hover-color: var(--color-text)
                                 &:hover
                                     border: $btn-hover-border
                         @include media-breakpoint-up(desktop)
