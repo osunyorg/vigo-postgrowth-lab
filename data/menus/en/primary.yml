@@ -36,6 +36,13 @@ items:
   children: []
   path: "/pages/projects"
   file: content/en/pages/projects/_index.html
+- title: Publications
+  target: "/publications/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/publications"
+  file: content/en/publications/_index.html
 - title: News
   target: "/news/"
   kind: page
@@ -50,11 +57,4 @@ items:
   children: []
   path: "/events"
   file: content/en/events/_index.html
-- title: Publications
-  target: "/publications/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/publications"
-  file: content/en/publications/_index.html
 
