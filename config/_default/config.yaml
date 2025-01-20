@@ -20,6 +20,9 @@ params:
   pages:
     index:
       layout: list
+  publications:
+    index:
+      group_by_year: true
   image_sizes:
     design_system:
       lightbox:
