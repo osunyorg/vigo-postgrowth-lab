@@ -2,6 +2,11 @@
 
 baseURL: https://postgrowth-lab.uvigo.es
 
+## OSUNY
+osuny:
+  website:
+    id: 4e98efcf-cf76-4b7c-ba41-890e7aa5163c
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
