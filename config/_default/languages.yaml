@@ -32,18 +32,6 @@ en:
           value: >-
             https://www.youtube.com/@post-growthinnovationlab956
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /exhibitions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    posts: /news/:year-:month-:day-:slug/
-    posts_categories: /news/:slug/
-    publications: /publications/:year-:slug/
-    persons: /people/:slug/
-    persons_categories: /people/categories/:slug/
-    authors: /people/:slug/news/
-    researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
