@@ -137,17 +137,19 @@
                                 .page-content
                                     padding-bottom: 0
     .block-posts 
-        .block-content
+        &--list
             @include media-breakpoint-up(xxl)
-                word-break: break-word
-                display: grid
-                grid-gap: var(--grid-gutter) var(--grid-gutter)
-                grid-template-columns: repeat(10, 1fr)
-                .top
-                    width: calc((var(--column-width)* 3) + var(--grid-gutter)*(3 - 1))
-                
-                .post-meta
-                    position: initial
+                .block-content
+                    display: flex
+                    gap: var(--grid-gutter)
+                    .top
+                        width: columns(3)
+                    .list
+                        flex: 1
+                    .post-title,
+                    .post-subtitle
+                        width: columns(5)
+
     .block-persons
         .block-content
             .persons
