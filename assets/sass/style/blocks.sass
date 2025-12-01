@@ -80,7 +80,7 @@
                         @include grid(10)
                         .top
                             width: columns(3)
-                ul.list
+                .pages
                     display: block !important
                     li
                         article 
@@ -88,7 +88,6 @@
                                 border-top: 1px solid $orange-main
                                 // Espaces verticaux mobiles
                                 padding-top: $spacing-3
-                                padding-bottom: $spacing-2
                                 width: 100%
                                 // Pour afficher les parties côte à côte
                                 @include media-breakpoint-up(sm)
@@ -136,15 +135,26 @@
                             article 
                                 .page-content
                                     padding-bottom: 0
+                    @include media-breakpoint-down(desktop)
+                        li + li 
+                            margin-top: $spacing-3
     .block-posts 
         &--list
+            .post
+                .post-content
+                    > .post-title, 
+                    hgroup
+                        order: -2
+                    .post-categories
+                        order: -1
+            
             @include media-breakpoint-up(xxl)
                 .block-content
                     display: flex
                     gap: var(--grid-gutter)
                     .top
-                        width: columns(3)
-                    .list
+                        width: columns(2)
+                    .posts
                         flex: 1
                     .post-title,
                     .post-subtitle
