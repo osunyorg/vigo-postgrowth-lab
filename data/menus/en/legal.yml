@@ -2,29 +2,37 @@
 title: Legal
 items:
 - title: Legal terms
+  slug: legal-terms
   target: "/legal-terms/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/legal-terms"
   file: content/en/pages/legal-terms/_index.html
 - title: Accessibility
+  slug: accessibility
   target: "/accessibility/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/accessibility"
   file: content/en/pages/accessibility/_index.html
 - title: Privacy policy
+  slug: privacy-policy
   target: "/privacy-policy/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/privacy-policy"
   file: content/en/pages/privacy-policy/_index.html
 - title: Copyright© 2024 - Post-Growth InnovationLab
+  slug: copyright-2024-post-growth-innovationlab
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 
