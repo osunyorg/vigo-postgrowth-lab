@@ -7,6 +7,11 @@ osuny:
   website:
     id: 4e98efcf-cf76-4b7c-ba41-890e7aa5163c
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "postgrowth-lab.webs.uvigo.es"
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
