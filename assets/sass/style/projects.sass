@@ -6,13 +6,13 @@
                     .pages
                         display: block
                         li 
-                            article 
+                            article
                                 .page-content
                                     border-top: 1px solid $orange-main
                                     padding-top: $spacing-3
                                     padding-bottom: $spacing-2
                                     width: 100%
-                                    @include grid( 12, desktop)
+                                    // @include grid( 12, desktop)
                                     .page-title 
                                         @include h2
                                         padding: $spacing-1 0
@@ -28,6 +28,7 @@
                                             @include media-breakpoint-up(desktop)
                                                 width: columns(5)
                                     @include media-breakpoint-up(desktop)
+                                        display: flex
                                         padding-top: $spacing-5
                                         padding-bottom: $spacing-5
                                         &::after
