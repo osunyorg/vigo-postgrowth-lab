@@ -2,6 +2,9 @@ theme: osuny
 _merge: deep
 params:
   plausible: postgrowth-lab.webs.uvigo.es
+  home:
+    head:
+      title: site
   summary:
     position: hero
   search:

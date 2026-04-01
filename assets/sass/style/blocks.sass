@@ -77,9 +77,12 @@
                             transform: none
                 @include in-page-without-sidebar
                     @include media-breakpoint-up(xxl)
-                        @include grid(10)
+                        display: flex
+                        gap: var(--grid-gutter)
                         .top
                             width: columns(3)
+                        .pages
+                            flex: 1
                 .pages
                     display: block !important
                     li
@@ -104,6 +107,7 @@
                                         background-position-x: right
                                         height: 40px
                                         width: 40px
+                                        margin-left: var(--grid-gutter)
                                 .page-title 
                                     @include h2
                                     a
@@ -117,7 +121,7 @@
                                                 content: ""
                                         @include media-breakpoint-up(xxl)
                                             width: columns(3)
-                                    + p
+                                    + .page-description
                                         @include media-breakpoint-up(sm)
                                             margin-top: 0
                                             margin-right: var(--grid-gutter)
