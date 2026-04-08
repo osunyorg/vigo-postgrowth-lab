@@ -30,28 +30,44 @@
                         @include media-breakpoint-up(desktop)
                             font-size: $body-size-desktop
     .block-features
-        ul
-            li
+        .features
+            .feature
                 background-color: $orange-main
                 padding: var(--grid-gutter)
                 .name
                     @include h3
-                figure 
+                figure
                     picture.is-png 
                         padding-top: 0
                         img
                             max-width: 100%
                             margin: auto
-                @include in-page-without-sidebar        
-                    text-align: center
-                    width: columns(4)
-                    + li
-                        margin-top: var(--grid-gutter)
-                        margin-top: 0
-            @include in-page-without-sidebar    
-                display: flex
-                flex-wrap: wrap
-                justify-content: center
+
+        &--list
+            .feature + .feature
+                margin-top: var(--grid-gutter)
+
+            @include media-breakpoint-down(desktop)
+                .feature
+                    &-content div
+                        margin-left: 0
+            
+            @include in-page-with-sidebar
+                .feature:has(figure)
+                    .feature-content
+                        width: columns(5)
+                        > *
+                            width: columns(5)
+        &--grid
+            .features
+                .feature
+                    @include in-page-without-sidebar        
+                        text-align: center
+                        width: columns(4)
+                @include in-page-without-sidebar    
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
 
     .block-pages
         &--list
