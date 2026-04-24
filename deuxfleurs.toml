@@ -15,570 +15,570 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/agenda/2021-07-05-eadi-iss-conference-2021/"
+from = "/agenda/2021-07-05-eadi-iss-conference-2021/index.html"
 to = "/agenda/2021/eadi-iss-conference-2021/"
 
 [[redirects]]
-from = "/agenda/2024-10-23-phd-annual-seminars/"
+from = "/agenda/2024-10-23-phd-annual-seminars/index.html"
 to = "/agenda/2024/phd-annual-seminars/"
 
 [[redirects]]
-from = "/agenda/2024-06-05-seminar-sara-zimmermann/"
+from = "/agenda/2024-06-05-seminar-sara-zimmermann/index.html"
 to = "/agenda/2024/seminar-sara-zimmermann/"
 
 [[redirects]]
-from = "/agenda/2024-04-22-seminar-silvio-funtowicz/"
+from = "/agenda/2024-04-22-seminar-silvio-funtowicz/index.html"
 to = "/agenda/2024/seminar-silvio-funtowicz/"
 
 [[redirects]]
-from = "/projects-1/just2ce/"
+from = "/projects-1/just2ce/index.html"
 to = "/projects/just2ce/"
 
 [[redirects]]
-from = "/agenda/2024-04-25-faladoiro-finanzas-eticas-moito-mais-que-produtos-sostibles/"
+from = "/agenda/2024-04-25-faladoiro-finanzas-eticas-moito-mais-que-produtos-sostibles/index.html"
 to = "/agenda/2024/primavera-decrecemento-finanzas-eticas/"
 
 [[redirects]]
-from = "/agenda/2023-07-06-39th-egos-colloquium-2023/"
+from = "/agenda/2023-07-06-39th-egos-colloquium-2023/index.html"
 to = "/agenda/2023/39th-egos-colloquium-2023/"
 
 [[redirects]]
-from = "/news/2024-07-10-ana-garcia-and-aitor-alonso-pre-doctoral-researchers-at-the-post-growth-innovation-lab-receive-a-pre/"
+from = "/news/2024-07-10-ana-garcia-and-aitor-alonso-pre-doctoral-researchers-at-the-post-growth-innovation-lab-receive-a-pre/index.html"
 to = "/news/2024-07-10-predoctoral-xunta-2024/"
 
 [[redirects]]
-from = "/agenda/2024-06-13-13-de-xuno-as-organizacions-ecoloxistas-na-comunicacion-dos-limites-del-crecemento/"
+from = "/agenda/2024-06-13-13-de-xuno-as-organizacions-ecoloxistas-na-comunicacion-dos-limites-del-crecemento/index.html"
 to = "/agenda/2024/primavera-decrecemento-organizacions-ecoloxistas/"
 
 [[redirects]]
-from = "/agenda/2024-06-21-esee-degrowth-2024-decrecemento-ou-barbarie/"
+from = "/agenda/2024-06-21-esee-degrowth-2024-decrecemento-ou-barbarie/index.html"
 to = "/agenda/2024/esee-degrowth-2024-decrecemento-ou-barbarie/"
 
 [[redirects]]
-from = "/agenda/2024-10-24-savanna-books/"
+from = "/agenda/2024-10-24-savanna-books/index.html"
 to = "/agenda/2024/savanna-books/"
 
 [[redirects]]
-from = "/agenda/2024-06-04-minna-kayra-phd-project-presentation-alternative-futures-of-long-distance-travel-in-finland/"
+from = "/agenda/2024-06-04-minna-kayra-phd-project-presentation-alternative-futures-of-long-distance-travel-in-finland/index.html"
 to = "/agenda/2024/seminar-minna-kayra/"
 
 [[redirects]]
-from = "/projects/arca-towards-an-appropriate-climate-responsibility-how-the-appropriate-responsibility-narrative-can/"
+from = "/projects/arca-towards-an-appropriate-climate-responsibility-how-the-appropriate-responsibility-narrative-can/index.html"
 to = "/projects/arca/"
 
 [[redirects]]
-from = "/team/tess-doezema/"
+from = "/team/tess-doezema/index.html"
 to = "/people/tess-doezema/"
 
 [[redirects]]
-from = "/projects/2024-prospera/"
+from = "/projects/2024-prospera/index.html"
 to = "/portfolio/2024-prospera/"
 
 [[redirects]]
-from = "/team/tess-doezema/publications/"
+from = "/team/tess-doezema/publications/index.html"
 to = "/people/tess-doezema/publications/"
 
 [[redirects]]
-from = "/projects-1/postgrowth-sa/"
+from = "/projects-1/postgrowth-sa/index.html"
 to = "/projects/postgrowth-sa/"
 
 [[redirects]]
-from = "/projects/0-just2ce/"
+from = "/projects/0-just2ce/index.html"
 to = "/portfolio/0-just2ce/"
 
 [[redirects]]
-from = "/agenda/2021-12-14-rri-sustainability-shifting-responsibly-towards-a-circular-economy/"
+from = "/agenda/2021-12-14-rri-sustainability-shifting-responsibly-towards-a-circular-economy/index.html"
 to = "/agenda/2021/rri-sustainability-shifting-responsibly-towards-a-circular-economy/"
 
 [[redirects]]
-from = "/agenda/2023-04-12-post-growthdegrowth-organisation/"
+from = "/agenda/2023-04-12-post-growthdegrowth-organisation/index.html"
 to = "/agenda/2023/post-growthdegrowth-organisation/"
 
 [[redirects]]
-from = "/agenda/2024-10-01-seminar-alice-dal-gobbo/"
+from = "/agenda/2024-10-01-seminar-alice-dal-gobbo/index.html"
 to = "/agenda/2024/seminar-alice-dal-gobbo/"
 
 [[redirects]]
-from = "/projects/2024-explicit/"
+from = "/projects/2024-explicit/index.html"
 to = "/portfolio/2024-explicit/"
 
 [[redirects]]
-from = "/team/elena-ojea/publications/"
+from = "/team/elena-ojea/publications/index.html"
 to = "/people/elena-ojea/publications/"
 
 [[redirects]]
-from = "/agenda/2023-09-06-summer-school-2023-life-after-growth/"
+from = "/agenda/2023-09-06-summer-school-2023-life-after-growth/index.html"
 to = "/agenda/2023/summer-school-2023-life-after-growth/"
 
 [[redirects]]
-from = "/agenda/2022-02-23-books-presentation/"
+from = "/agenda/2022-02-23-books-presentation/index.html"
 to = "/agenda/2022/books-presentation/"
 
 [[redirects]]
-from = "/team/sofia-greaves/"
+from = "/team/sofia-greaves/index.html"
 to = "/people/sofia-greaves/"
 
 [[redirects]]
-from = "/agenda/2024-06-19-esee-degrowth-2024-dialogue-3/"
+from = "/agenda/2024-06-19-esee-degrowth-2024-dialogue-3/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-3/"
 
 [[redirects]]
-from = "/agenda/2024-02-20-srinjoymitra/"
+from = "/agenda/2024-02-20-srinjoymitra/index.html"
 to = "/agenda/2024/seminar-srinjoy-mitra/"
 
 [[redirects]]
-from = "/agenda/2023-12-01-workshopenergytransitions/"
+from = "/agenda/2023-12-01-workshopenergytransitions/index.html"
 to = "/agenda/2023/workshopenergytransitions/"
 
 [[redirects]]
-from = "/posts/"
+from = "/posts/index.html"
 to = "/news/"
 
 [[redirects]]
-from = "/agenda/2022-12-07-4s-esocite-2022/"
+from = "/agenda/2022-12-07-4s-esocite-2022/index.html"
 to = "/agenda/2022/4s-esocite-2022/"
 
 [[redirects]]
-from = "/agenda/2024-06-18-scenario-exploration-system-circular-economy-edition/"
+from = "/agenda/2024-06-18-scenario-exploration-system-circular-economy-edition/index.html"
 to = "/agenda/2024/scenario-exploration-system-circular-economy-edition/"
 
 [[redirects]]
-from = "/agenda/2023-12-01-workshop-exploring-the-energy-transitions-in-india-south-africa-an-spain/"
+from = "/agenda/2023-12-01-workshop-exploring-the-energy-transitions-in-india-south-africa-an-spain/index.html"
 to = "/agenda/2023/workshopenergytransitions/"
 
 [[redirects]]
-from = "/agenda/2025-02-12-seminar-rachelle-fussone-universita-di-catania/"
+from = "/agenda/2025-02-12-seminar-rachelle-fussone-universita-di-catania/index.html"
 to = "/agenda/2025/seminar-rachelle-fussone/"
 
 [[redirects]]
-from = "/agenda/2022-06-14-esee-2022-conference-pisa-14-17-june/"
+from = "/agenda/2022-06-14-esee-2022-conference-pisa-14-17-june/index.html"
 to = "/agenda/2022/esee-2022-conference-pisa-14-17-june/"
 
 [[redirects]]
-from = "/news/2025-11-24-seminar-on-interviews-as-a-qualitative-research-method-for-the-attract-project/"
+from = "/news/2025-11-24-seminar-on-interviews-as-a-qualitative-research-method-for-the-attract-project/index.html"
 to = "/news/2025-11-25-seminar-on-interviews-as-a-qualitative-research-method-for-the-attract-project/"
 
 [[redirects]]
-from = "/team/communication-esee-degrowth-2024/"
+from = "/team/communication-esee-degrowth-2024/index.html"
 to = "/people/communication-esee-degrowth-2024/"
 
 [[redirects]]
-from = "/team/poonam-pandey/"
+from = "/team/poonam-pandey/index.html"
 to = "/people/poonam-pandey/"
 
 [[redirects]]
-from = "/agenda/2024-03-18-seminar-adrian-almazan/"
+from = "/agenda/2024-03-18-seminar-adrian-almazan/index.html"
 to = "/agenda/2024/seminar-adrian-almazan/"
 
 [[redirects]]
-from = "/agenda/2024-09-19-seminar-emanuele-barreca/"
+from = "/agenda/2024-09-19-seminar-emanuele-barreca/index.html"
 to = "/agenda/2024/seminar-emanuele-barreca/"
 
 [[redirects]]
-from = "/agenda/2021-07-29-bringing-the-manager-back-in-management/"
+from = "/agenda/2021-07-29-bringing-the-manager-back-in-management/index.html"
 to = "/agenda/2021/bringing-the-manager-back-in-management/"
 
 [[redirects]]
-from = "/agenda/2024-04-17-webinar-combining-art-and-science-in-planning/"
+from = "/agenda/2024-04-17-webinar-combining-art-and-science-in-planning/index.html"
 to = "/agenda/2024/webinar-combining-art-and-science-in-planning/"
 
 [[redirects]]
-from = "/news/2025-11-25-ocu-webinar-on-the-right-to-repair/"
+from = "/news/2025-11-25-ocu-webinar-on-the-right-to-repair/index.html"
 to = "/news/2025-11-26-ocu-webinar-on-the-right-to-repair/"
 
 [[redirects]]
-from = "/agenda/2024-04-25-primavera-decrecemento-finanzas-eticas/"
+from = "/agenda/2024-04-25-primavera-decrecemento-finanzas-eticas/index.html"
 to = "/agenda/2024/primavera-decrecemento-finanzas-eticas/"
 
 [[redirects]]
-from = "/agenda/2021-07-05-2021-joint-conference-of-isee-esee-and-degrowth/"
+from = "/agenda/2021-07-05-2021-joint-conference-of-isee-esee-and-degrowth/index.html"
 to = "/agenda/2021/2021-joint-conference-of-isee-esee-and-degrowth/"
 
 [[redirects]]
-from = "/team/david-soto-onate/"
+from = "/team/david-soto-onate/index.html"
 to = "/people/david-soto-onate/"
 
 [[redirects]]
-from = "/agenda/2024-11-21-serigo-cop-launch-webinar/"
+from = "/agenda/2024-11-21-serigo-cop-launch-webinar/index.html"
 to = "/agenda/2024/serigo-cop-launch-webinar/"
 
 [[redirects]]
-from = "/agenda/2025-04-01-seminar-nakano-yoshihiro/"
+from = "/agenda/2025-04-01-seminar-nakano-yoshihiro/index.html"
 to = "/agenda/2025/seminar-nakano-yoshihiro/"
 
 [[redirects]]
-from = "/news/2026-03-25-o-comite-cidadan-polo-clima-reuniuse-este-martes-en-pontevedra-para-avanzar-en-propostas-para-un-con/"
+from = "/news/2026-03-25-o-comite-cidadan-polo-clima-reuniuse-este-martes-en-pontevedra-para-avanzar-en-propostas-para-un-con/index.html"
 to = "/news/2026-03-25-comite-cidadan2/"
 
 [[redirects]]
-from = "/news/2025-11-24-attract-vi-conference-on-technology-for-the-common-good/"
+from = "/news/2025-11-24-attract-vi-conference-on-technology-for-the-common-good/index.html"
 to = "/news/2025-11-22-attract-vi-conference-on-technology-for-the-common-good/"
 
 [[redirects]]
-from = "/agenda/2021-10-27-seminario-de-investigacion-gennaro-ascione-unthinking-capital-a-teratologic-approach-to-concept-form/"
+from = "/agenda/2021-10-27-seminario-de-investigacion-gennaro-ascione-unthinking-capital-a-teratologic-approach-to-concept-form/index.html"
 to = "/agenda/2021/seminario-de-investigacion-gennaro-ascione-unthinking-capital-a-teratologic-approach-to-concept-form/"
 
 [[redirects]]
-from = "/team/communication-esee-degrowth-2024/news/"
+from = "/team/communication-esee-degrowth-2024/news/index.html"
 to = "/people/communication-esee-degrowth-2024/news/"
 
 [[redirects]]
-from = "/agenda/2024-02-20-seminar-srinjoy-mitra/"
+from = "/agenda/2024-02-20-seminar-srinjoy-mitra/index.html"
 to = "/agenda/2024/seminar-srinjoy-mitra/"
 
 [[redirects]]
-from = "/agenda/2024-01-24-blancacallen/"
+from = "/agenda/2024-01-24-blancacallen/index.html"
 to = "/agenda/2024/seminar-blanca-callen/"
 
 [[redirects]]
-from = "/agenda/2021-06-21-the-8th-degrowth-and-environmental-justice-summer-school/"
+from = "/agenda/2021-06-21-the-8th-degrowth-and-environmental-justice-summer-school/index.html"
 to = "/agenda/2021/the-8th-degrowth-and-environmental-justice-summer-school/"
 
 [[redirects]]
-from = "/news/0006-02-20-tres-novos-proxectos-de-investigacion-e-innovacion/"
+from = "/news/0006-02-20-tres-novos-proxectos-de-investigacion-e-innovacion/index.html"
 to = "/news/2026-02-27-tres-novos-proxectos-de-investigacion-e-innovacion/"
 
 [[redirects]]
-from = "/agenda/2024-06-18-esee-degrowth-2024-opening-session/"
+from = "/agenda/2024-06-18-esee-degrowth-2024-opening-session/index.html"
 to = "/agenda/2024/esee-degrowth-2024-opening-session/"
 
 [[redirects]]
-from = "/agenda/2022-06-21-post-growth-innovation-lab-seminar-samer-abdelnour-university-of-edinburgh/"
+from = "/agenda/2022-06-21-post-growth-innovation-lab-seminar-samer-abdelnour-university-of-edinburgh/index.html"
 to = "/agenda/2022/post-growth-innovation-lab-seminar-samer-abdelnour-university-of-edinburgh/"
 
 [[redirects]]
-from = "/agenda/2024-06-04-seminar-minna-kayra/"
+from = "/agenda/2024-06-04-seminar-minna-kayra/index.html"
 to = "/agenda/2024/seminar-minna-kayra/"
 
 [[redirects]]
-from = "/projects/2024-postgrowth-s-a/"
+from = "/projects/2024-postgrowth-s-a/index.html"
 to = "/portfolio/2024-postgrowth-s-a/"
 
 [[redirects]]
-from = "/agenda/2024-04-11-workshop-returning-to-the-roots-returning-to-growth/"
+from = "/agenda/2024-04-11-workshop-returning-to-the-roots-returning-to-growth/index.html"
 to = "/agenda/2024/primavera-decrecemento-volvendo-as-raices/"
 
 [[redirects]]
-from = "/agenda/2025-03-18-seminar-wakana-suzuki/"
+from = "/agenda/2025-03-18-seminar-wakana-suzuki/index.html"
 to = "/agenda/2025/seminar-wakana-suzuki/"
 
 [[redirects]]
-from = "/agenda/2024-04-30-primavera-decrecemento-cine-forum-andre-gorz/"
+from = "/agenda/2024-04-30-primavera-decrecemento-cine-forum-andre-gorz/index.html"
 to = "/agenda/2024/primavera-decrecemento-cine-forum-andre-gorz/"
 
 [[redirects]]
-from = "/team/cabaleiro-casal-maria-jose/"
+from = "/team/cabaleiro-casal-maria-jose/index.html"
 to = "/people/cabaleiro-casal-maria-jose/"
 
 [[redirects]]
-from = "/agenda/2024-04-11-primavera-decrecemento-volvendo-as-raices/"
+from = "/agenda/2024-04-11-primavera-decrecemento-volvendo-as-raices/index.html"
 to = "/agenda/2024/primavera-decrecemento-volvendo-as-raices/"
 
 [[redirects]]
-from = "/agenda/2024-06-18-esee-degrowth-international-conference-2024/"
+from = "/agenda/2024-06-18-esee-degrowth-international-conference-2024/index.html"
 to = "/agenda/2024/esee-degrowth-international-conference-2024/"
 
 [[redirects]]
-from = "/agenda/2024-03-12-markomonteiro/"
+from = "/agenda/2024-03-12-markomonteiro/index.html"
 to = "/agenda/2024/seminar-marko-monteiro/"
 
 [[redirects]]
-from = "/team/researchers/"
+from = "/team/researchers/index.html"
 to = "/people/researchers/"
 
 [[redirects]]
-from = "/post-growth-for-all/dissemination/"
+from = "/post-growth-for-all/dissemination/index.html"
 to = "/postgrowth-transference-hub/dissemination/"
 
 [[redirects]]
-from = "/agenda/2023-09-29-g-night-2023/"
+from = "/agenda/2023-09-29-g-night-2023/index.html"
 to = "/agenda/2023/g-night-2023/"
 
 [[redirects]]
-from = "/agenda/2024-06-20-esee-degrowth-2024-partidos-politicos-e-sindicatos/"
+from = "/agenda/2024-06-20-esee-degrowth-2024-partidos-politicos-e-sindicatos/index.html"
 to = "/agenda/2024/esee-degrowth-2024-partidos-politicos-e-sindicatos/"
 
 [[redirects]]
-from = "/agenda/2024-01-24-seminar-blanca-callen/"
+from = "/agenda/2024-01-24-seminar-blanca-callen/index.html"
 to = "/agenda/2024/seminar-blanca-callen/"
 
 [[redirects]]
-from = "/agenda/2024-10-21-just2ce-four-stories-of-circular-economy/"
+from = "/agenda/2024-10-21-just2ce-four-stories-of-circular-economy/index.html"
 to = "/agenda/2024/just2ce-four-stories-of-circular-economy/"
 
 [[redirects]]
-from = "/team/mario-pansera/"
+from = "/team/mario-pansera/index.html"
 to = "/people/mario-pansera/"
 
 [[redirects]]
-from = "/agenda/2024-03-18-adrianalmazan/"
+from = "/agenda/2024-03-18-adrianalmazan/index.html"
 to = "/agenda/2024/seminar-adrian-almazan/"
 
 [[redirects]]
-from = "/agenda/2024-04-18-primavera-decrecemento-aqui-non-hai-quen-viva/"
+from = "/agenda/2024-04-18-primavera-decrecemento-aqui-non-hai-quen-viva/index.html"
 to = "/agenda/2024/primavera-decrecemento-aqui-non-hai-quen-viva/"
 
 [[redirects]]
-from = "/news/2024-01-15-successful-workshop-on-post-growthdegrowth-organisation/"
+from = "/news/2024-01-15-successful-workshop-on-post-growthdegrowth-organisation/index.html"
 to = "/news/2023-06-01-successful-workshop-on-post-growthdegrowth-organisation/"
 
 [[redirects]]
-from = "/agenda/2025-02-12-seminar-rachelle-fussone/"
+from = "/agenda/2025-02-12-seminar-rachelle-fussone/index.html"
 to = "/agenda/2025/seminar-rachelle-fussone/"
 
 [[redirects]]
-from = "/agenda/2023-08-29-9th-international-degrowth-conference-2023/"
+from = "/agenda/2023-08-29-9th-international-degrowth-conference-2023/index.html"
 to = "/agenda/2023/9th-international-degrowth-conference-2023/"
 
 [[redirects]]
-from = "/agenda/2024-06-20-esee-degrowth-2024-dialogue-4/"
+from = "/agenda/2024-06-20-esee-degrowth-2024-dialogue-4/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-4/"
 
 [[redirects]]
-from = "/news/2024-01-15-call-for-papers-for-a-special-issue/"
+from = "/news/2024-01-15-call-for-papers-for-a-special-issue/index.html"
 to = "/news/2022-04-01-call-for-papers-for-a-special-issue/"
 
 [[redirects]]
-from = "/team/elena-ojea/"
+from = "/team/elena-ojea/index.html"
 to = "/people/elena-ojea/"
 
 [[redirects]]
-from = "/news/2025-10-06-8-encontro-brasileiro/"
+from = "/news/2025-10-06-8-encontro-brasileiro/index.html"
 to = "/news/2025-10-06-encontro-brasileiro/"
 
 [[redirects]]
-from = "/agenda/2024-05-23-faladoiro-ecoloxia-extractivismo/"
+from = "/agenda/2024-05-23-faladoiro-ecoloxia-extractivismo/index.html"
 to = "/agenda/2024/faladoiro-ecoloxia-extractivismo/"
 
 [[redirects]]
-from = "/news/2025-02-04-transicion-sur-global/"
+from = "/news/2025-02-04-transicion-sur-global/index.html"
 to = "/news/2025-02-04-just2ce/"
 
 [[redirects]]
-from = "/agenda/2024-06-18-esee-degrowth-2024-dialogue-2/"
+from = "/agenda/2024-06-18-esee-degrowth-2024-dialogue-2/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-2/"
 
 [[redirects]]
-from = "/agenda/2023-05-08-sts-conference-graz-2023/"
+from = "/agenda/2023-05-08-sts-conference-graz-2023/index.html"
 to = "/agenda/2023/sts-conference-graz-2023/"
 
 [[redirects]]
-from = "/agenda/2024-03-06-seminar-yousaf-nishat/"
+from = "/agenda/2024-03-06-seminar-yousaf-nishat/index.html"
 to = "/agenda/2024/seminar-yousaf-nishat/"
 
 [[redirects]]
-from = "/agenda/2024-06-13-primavera-decrecemento-organizacions-ecoloxistas/"
+from = "/agenda/2024-06-13-primavera-decrecemento-organizacions-ecoloxistas/index.html"
 to = "/agenda/2024/primavera-decrecemento-organizacions-ecoloxistas/"
 
 [[redirects]]
-from = "/agenda/2022-05-27-seminarioecobaslloveras/"
+from = "/agenda/2022-05-27-seminarioecobaslloveras/index.html"
 to = "/agenda/2022/seminarioecobaslloveras/"
 
 [[redirects]]
-from = "/news/2024-01-15-sofia-greaves-is-going-to-join-us/"
+from = "/news/2024-01-15-sofia-greaves-is-going-to-join-us/index.html"
 to = "/news/2021-05-01-sofia-greaves-is-going-to-join-us/"
 
 [[redirects]]
-from = "/team/aviram-sharma/"
+from = "/team/aviram-sharma/index.html"
 to = "/people/aviram-sharma/"
 
 [[redirects]]
-from = "/agenda/2025-03-27-seminar-thomas-bauwens/"
+from = "/agenda/2025-03-27-seminar-thomas-bauwens/index.html"
 to = "/agenda/2025/seminar-thomas-bauwens/"
 
 [[redirects]]
-from = "/agenda/2024-06-20-esee-degrowth-2024-dialogue-5/"
+from = "/agenda/2024-06-20-esee-degrowth-2024-dialogue-5/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-5/"
 
 [[redirects]]
-from = "/people/job-offers/"
+from = "/people/job-offers/index.html"
 to = "/team/job-offers/"
 
 [[redirects]]
-from = "/projects/0-arca/"
+from = "/projects/0-arca/index.html"
 to = "/portfolio/0-arca/"
 
 [[redirects]]
-from = "/projects-1/"
+from = "/projects-1/index.html"
 to = "/projects/"
 
 [[redirects]]
-from = "/agenda/2024-06-06-primavera-decrecemento-renda-basica/"
+from = "/agenda/2024-06-06-primavera-decrecemento-renda-basica/index.html"
 to = "/agenda/2024/primavera-decrecemento-renda-basica/"
 
 [[redirects]]
-from = "/team/elisa-schramm/"
+from = "/team/elisa-schramm/index.html"
 to = "/people/elisa-schramm/"
 
 [[redirects]]
-from = "/news/2022-12-18-international-networking/"
+from = "/news/2022-12-18-international-networking/index.html"
 to = "/news/2024-12-18-international-networking/"
 
 [[redirects]]
-from = "/agenda/2024-06-06-renda-basica--limites-do-crecemento/"
+from = "/agenda/2024-06-06-renda-basica--limites-do-crecemento/index.html"
 to = "/agenda/2024/primavera-decrecemento-renda-basica/"
 
 [[redirects]]
-from = "/agenda/2023-10-24-presentacion-das-novas-ferramentas-de-saves-para-o-cooperativismo-galego/"
+from = "/agenda/2023-10-24-presentacion-das-novas-ferramentas-de-saves-para-o-cooperativismo-galego/index.html"
 to = "/agenda/2023/presentacion-das-novas-ferramentas-de-saves-para-o-cooperativismo-galego/"
 
 [[redirects]]
-from = "/agenda/2022-11-28-xornada-introducion-ao-poscrecemento/"
+from = "/agenda/2022-11-28-xornada-introducion-ao-poscrecemento/index.html"
 to = "/agenda/2022/xornada-introducion-ao-poscrecemento/"
 
 [[redirects]]
-from = "/agenda/2024-06-21-esee-degrowth-2024-dialogue-6/"
+from = "/agenda/2024-06-21-esee-degrowth-2024-dialogue-6/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-6/"
 
 [[redirects]]
-from = "/agenda/2022-07-06-easst-2022-politics-of-technoscientific-futures/"
+from = "/agenda/2022-07-06-easst-2022-politics-of-technoscientific-futures/index.html"
 to = "/agenda/2022/easst-2022-politics-of-technoscientific-futures/"
 
 [[redirects]]
-from = "/agenda/2024-11-06-phd-annual-seminars-2/"
+from = "/agenda/2024-11-06-phd-annual-seminars-2/index.html"
 to = "/agenda/2024/phd-annual-seminars-2/"
 
 [[redirects]]
-from = "/post-growth-for-all/"
+from = "/post-growth-for-all/index.html"
 to = "/postgrowth-transference-hub/"
 
 [[redirects]]
-from = "/agenda/2024-03-06-yousafmatthew/"
+from = "/agenda/2024-03-06-yousafmatthew/index.html"
 to = "/agenda/2024/seminar-yousaf-nishat/"
 
 [[redirects]]
-from = "/agenda/2023-03-07-ciclo-de-relatorios-sobre-o-decrecemento/"
+from = "/agenda/2023-03-07-ciclo-de-relatorios-sobre-o-decrecemento/index.html"
 to = "/agenda/2023/ciclo-de-relatorios-sobre-o-decrecemento/"
 
 [[redirects]]
-from = "/agenda/2022-09-22-unha-conversa-co-ministro-alberto-garzon/"
+from = "/agenda/2022-09-22-unha-conversa-co-ministro-alberto-garzon/index.html"
 to = "/agenda/2022/unha-conversa-co-ministro-alberto-garzon/"
 
 [[redirects]]
-from = "/agenda/2024-06-05-sara-zimmermann-masters-thesis-presentation/"
+from = "/agenda/2024-06-05-sara-zimmermann-masters-thesis-presentation/index.html"
 to = "/agenda/2024/seminar-sara-zimmermann/"
 
 [[redirects]]
-from = "/team/martin-parker/"
+from = "/team/martin-parker/index.html"
 to = "/people/martin-parker/"
 
 [[redirects]]
-from = "/agenda/2024-06-17-esee-degrowth-international-conference-2024/"
+from = "/agenda/2024-06-17-esee-degrowth-international-conference-2024/index.html"
 to = "/agenda/2024/esee-degrowth-international-conference-2024/"
 
 [[redirects]]
-from = "/agenda/2024-04-30-cine-forum-sobre-a-obra-de-andre-gorz-traballar-para-vivir-ou-vivir-para-traballar-replantexar-o-tra/"
+from = "/agenda/2024-04-30-cine-forum-sobre-a-obra-de-andre-gorz-traballar-para-vivir-ou-vivir-para-traballar-replantexar-o-tra/index.html"
 to = "/agenda/2024/primavera-decrecemento-cine-forum-andre-gorz/"
 
 [[redirects]]
-from = "/projects-1/prospera/"
+from = "/projects-1/prospera/index.html"
 to = "/projects/prospera/"
 
 [[redirects]]
-from = "/team/javier-lloveras/"
+from = "/team/javier-lloveras/index.html"
 to = "/people/javier-lloveras/"
 
 [[redirects]]
-from = "/projects/2024-r2r4-postgrowth/"
+from = "/projects/2024-r2r4-postgrowth/index.html"
 to = "/portfolio/2024-r2r4-postgrowth/"
 
 [[redirects]]
-from = "/projects-1/arca/"
+from = "/projects-1/arca/index.html"
 to = "/projects/arca/"
 
 [[redirects]]
-from = "/agenda/2024-03-12-seminar-marko-monteiro/"
+from = "/agenda/2024-03-12-seminar-marko-monteiro/index.html"
 to = "/agenda/2024/seminar-marko-monteiro/"
 
 [[redirects]]
-from = "/agenda/2024-11-20-phd-annual-seminars-1/"
+from = "/agenda/2024-11-20-phd-annual-seminars-1/index.html"
 to = "/agenda/2024/phd-annual-seminars-1/"
 
 [[redirects]]
-from = "/agenda/2024-10-31-phd-annual-seminars-1/"
+from = "/agenda/2024-10-31-phd-annual-seminars-1/index.html"
 to = "/agenda/2024/phd-annual-seminars-1/"
 
 [[redirects]]
-from = "/projects-1/explicit/"
+from = "/projects-1/explicit/index.html"
 to = "/projects/explicit/"
 
 [[redirects]]
-from = "/agenda/2024-04-18-xoves-18-de-abril-faladoiro-aqui-non-hai-quen-viva-acceso-a-vivenda-e-decrecemento/"
+from = "/agenda/2024-04-18-xoves-18-de-abril-faladoiro-aqui-non-hai-quen-viva-acceso-a-vivenda-e-decrecemento/index.html"
 to = "/agenda/2024/primavera-decrecemento-aqui-non-hai-quen-viva/"
 
 [[redirects]]
-from = "/projects/arca-towards-an-appropriate-climate-responsibility-how-the-appropriate-responsibility-narrative-can-affect-the-behavior-of-public-administrations-in-the-face-of-climate-change/"
+from = "/projects/arca-towards-an-appropriate-climate-responsibility-how-the-appropriate-responsibility-narrative-can-affect-the-behavior-of-public-administrations-in-the-face-of-climate-change/index.html"
 to = "/projects/arca/"
 
 [[redirects]]
-from = "/agenda/2021-09-23-research-seminar-prof-xavier-simon/"
+from = "/agenda/2021-09-23-research-seminar-prof-xavier-simon/index.html"
 to = "/agenda/2021/research-seminar-prof-xavier-simon/"
 
 [[redirects]]
-from = "/agenda/2025-02-11-seminar-franca-marquardt/"
+from = "/agenda/2025-02-11-seminar-franca-marquardt/index.html"
 to = "/agenda/2025/seminar-franca-marquardt/"
 
 [[redirects]]
-from = "/team/david-soto-onate/publications/"
+from = "/team/david-soto-onate/publications/index.html"
 to = "/people/david-soto-onate/publications/"
 
 [[redirects]]
-from = "/agenda/2024-06-18-esee-degrowth-2024-dialogue-1/"
+from = "/agenda/2024-06-18-esee-degrowth-2024-dialogue-1/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-1/"
 
 [[redirects]]
-from = "/team/editors/"
+from = "/team/editors/index.html"
 to = "/people/editors/"
 
 [[redirects]]
-from = "/team/andrea-genovese/"
+from = "/team/andrea-genovese/index.html"
 to = "/people/andrea-genovese/"
 
 [[redirects]]
-from = "/news/2025-03-12-bota-a-andar-o-proxecto-coblue/"
+from = "/news/2025-03-12-bota-a-andar-o-proxecto-coblue/index.html"
 to = "/news/2025-03-12-coblue/"
 
 [[redirects]]
-from = "/agenda/2024-10-30-phd-annual-seminars-1/"
+from = "/agenda/2024-10-30-phd-annual-seminars-1/index.html"
 to = "/agenda/2024/phd-annual-seminars-1/"
 
 [[redirects]]
-from = "/agenda/2024-02-19-seminar-remo-santagata/"
+from = "/agenda/2024-02-19-seminar-remo-santagata/index.html"
 to = "/agenda/2024/seminar-remo-santagata/"
 
 [[redirects]]
-from = "/agenda/2024-10-08-esee-degrowth-2024-closing-event/"
+from = "/agenda/2024-10-08-esee-degrowth-2024-closing-event/index.html"
 to = "/agenda/2024/esee-degrowth-2024-closing-event/"
 
 [[redirects]]
-from = "/team/mario-pansera/publications/"
+from = "/team/mario-pansera/publications/index.html"
 to = "/people/mario-pansera/publications/"
 
 [[redirects]]
-from = "/team/stefania-barca/"
+from = "/team/stefania-barca/index.html"
 to = "/people/stefania-barca/"
 
 [[redirects]]
-from = "/agenda/2024-02-19-remosantagata/"
+from = "/agenda/2024-02-19-remosantagata/index.html"
 to = "/agenda/2024/seminar-remo-santagata/"
 
 [[redirects]]
-from = "/projects-1/r2r4-postgrowth/"
+from = "/projects-1/r2r4-postgrowth/index.html"
 to = "/projects/r2r4-postgrowth/"
 
 [[redirects]]
-from = "/agenda/2024-06-21-esee-degrowth-2024-dialogue-7/"
+from = "/agenda/2024-06-21-esee-degrowth-2024-dialogue-7/index.html"
 to = "/agenda/2024/esee-degrowth-2024-dialogue-7/"
 
 [[redirects]]
-from = "/news/2025-01-04-transicion-sur-global/"
+from = "/news/2025-01-04-transicion-sur-global/index.html"
 to = "/news/2025-02-04-just2ce/"
 
 [[redirects]]
-from = "/agenda/2023-03-24-xornada-muller-e-agrocooperativismo-en-galiza/"
+from = "/agenda/2023-03-24-xornada-muller-e-agrocooperativismo-en-galiza/index.html"
 to = "/agenda/2023/xornada-muller-e-agrocooperativismo-en-galiza/"
 
 [[redirects]]
-from = "/agenda/2024-10-28-seminar-alex-pazaitis/"
+from = "/agenda/2024-10-28-seminar-alex-pazaitis/index.html"
 to = "/agenda/2024/seminar-alex-pazaitis/"
 
