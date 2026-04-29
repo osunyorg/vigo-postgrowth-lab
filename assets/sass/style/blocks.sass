@@ -30,28 +30,39 @@
                         @include media-breakpoint-up(desktop)
                             font-size: $body-size-desktop
     .block-features
-        ul
-            li
+        .features
+            .feature
                 background-color: $orange-main
                 padding: var(--grid-gutter)
                 .name
                     @include h3
-                figure 
-                    picture.is-png 
-                        padding-top: 0
+
+        &--list
+            .features
+                .feature
+                    figure
                         img
-                            max-width: 100%
-                            margin: auto
-                @include in-page-without-sidebar        
-                    text-align: center
-                    width: columns(4)
-                    + li
+                            aspect-ratio: auto
+                    + .feature
                         margin-top: var(--grid-gutter)
-                        margin-top: 0
-            @include in-page-without-sidebar    
-                display: flex
-                flex-wrap: wrap
-                justify-content: center
+
+        &--grid
+            .features
+                .feature
+                    figure 
+                        picture.is-png 
+                            padding-top: 0
+                            img
+                                max-width: 100%
+                                margin: auto
+                    
+                @include in-page-without-sidebar    
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center  
+                    .feature   
+                        text-align: center
+                        width: columns(4)
 
     .block-pages
         &--list
