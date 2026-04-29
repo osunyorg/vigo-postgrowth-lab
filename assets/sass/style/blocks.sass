@@ -46,6 +46,15 @@
                     + .feature
                         margin-top: var(--grid-gutter)
 
+                    @include in-page-with-sidebar
+                        .feature-content
+                            display: block
+                            .name,
+                            .feature-description
+                                width: 100%
+                            .feature-description
+                                margin-left: 0
+
         &--grid
             .features
                 .feature
