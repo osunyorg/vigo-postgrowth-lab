@@ -163,6 +163,10 @@ from = "/team/communication-esee-degrowth-2024/index.html"
 to = "/people/communication-esee-degrowth-2024/"
 
 [[redirects]]
+from = "/good-practice-handbook/index.html"
+to = "/good-practices-2026/"
+
+[[redirects]]
 from = "/team/poonam-pandey/index.html"
 to = "/people/poonam-pandey/"
 
