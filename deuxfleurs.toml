@@ -131,6 +131,10 @@ from = "/agenda/2023-12-01-workshopenergytransitions/index.html"
 to = "/agenda/2023/workshopenergytransitions/"
 
 [[redirects]]
+from = "/news/2026-05-20-seminar-right-to-repair/index.html"
+to = "/news/2025-10-25-seminar-right-to-repair/"
+
+[[redirects]]
 from = "/posts/index.html"
 to = "/news/"
 
