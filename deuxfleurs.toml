@@ -151,6 +151,10 @@ from = "/agenda/2025-02-12-seminar-rachelle-fussone-universita-di-catania/index.
 to = "/agenda/2025/seminar-rachelle-fussone/"
 
 [[redirects]]
+from = "/news/2026-03-14-1-taller-sobre-revisiones-de-literatura/index.html"
+to = "/news/2026-03-14-literature-review-workshop/"
+
+[[redirects]]
 from = "/agenda/2022-06-14-esee-2022-conference-pisa-14-17-june/index.html"
 to = "/agenda/2022/esee-2022-conference-pisa-14-17-june/"
 
@@ -367,6 +371,10 @@ from = "/agenda/2023-05-08-sts-conference-graz-2023/index.html"
 to = "/agenda/2023/sts-conference-graz-2023/"
 
 [[redirects]]
+from = "/news/2026-05-09-curso-qualitative-methods-in-the-social-sciences/index.html"
+to = "/news/2026-05-09-qualitative-methods-in-the-social-sciences/"
+
+[[redirects]]
 from = "/agenda/2024-03-06-seminar-yousaf-nishat/index.html"
 to = "/agenda/2024/seminar-yousaf-nishat/"
 
@@ -477,6 +485,10 @@ to = "/agenda/2024/primavera-decrecemento-cine-forum-andre-gorz/"
 [[redirects]]
 from = "/projects-1/prospera/index.html"
 to = "/projects/prospera/"
+
+[[redirects]]
+from = "/news/2025-10-10-seminario-controversy-mapping/index.html"
+to = "/news/2025-10-10-seminar-controversy-mapping/"
 
 [[redirects]]
 from = "/team/javier-lloveras/index.html"
