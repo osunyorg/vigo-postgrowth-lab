@@ -239,6 +239,10 @@ from = "/agenda/2024-02-20-seminar-srinjoy-mitra/index.html"
 to = "/agenda/2024/seminar-srinjoy-mitra/"
 
 [[redirects]]
+from = "/news/2025-04-28-guest-lecture-the-right-to-repair-controversies/index.html"
+to = "/news/2026-04-28-guest-lecture-the-right-to-repair-controversies/"
+
+[[redirects]]
 from = "/agenda/2024-01-24-blancacallen/index.html"
 to = "/agenda/2024/seminar-blanca-callen/"
 
@@ -497,6 +501,10 @@ to = "/news/2025-10-10-seminar-controversy-mapping/"
 [[redirects]]
 from = "/team/javier-lloveras/index.html"
 to = "/people/javier-lloveras/"
+
+[[redirects]]
+from = "/news/2025-05-28-guest-lecture-the-right-to-repair-controversies/index.html"
+to = "/news/2026-04-28-guest-lecture-the-right-to-repair-controversies/"
 
 [[redirects]]
 from = "/projects/2024-r2r4-postgrowth/index.html"
