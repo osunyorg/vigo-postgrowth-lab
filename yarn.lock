@@ -23,30 +23,40 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pagefind/darwin-arm64@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@pagefind/darwin-arm64/-/darwin-arm64-1.3.0.tgz#f1e63d031ba710c98b0b83db85df9251a255f543"
-  integrity sha512-365BEGl6ChOsauRjyVpBjXybflXAOvoMROw3TucAROHIcdBvXk9/2AmEvGFU0r75+vdQI4LJdJdpH4Y6Yqaj4A==
+"@pagefind/darwin-arm64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/darwin-arm64/-/darwin-arm64-1.5.2.tgz#965152ffc22bccd8299e065f7cfbc6869a1bffe0"
+  integrity sha512-MXpI+7HsAdPkvJ0gk9xj9g541BCqBZOBbdwj9g6lB5LCj6kSV6nqDSjzcAJwvOsfu0fjwvC8hQU+ecfhp+MpiQ==
 
-"@pagefind/darwin-x64@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@pagefind/darwin-x64/-/darwin-x64-1.3.0.tgz#10aa3c5988daa464c5c0db5c5aa4bf72e9bbfba1"
-  integrity sha512-zlGHA23uuXmS8z3XxEGmbHpWDxXfPZ47QS06tGUq0HDcZjXjXHeLG+cboOy828QIV5FXsm9MjfkP5e4ZNbOkow==
+"@pagefind/darwin-x64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/darwin-x64/-/darwin-x64-1.5.2.tgz#b5b9b47673caf7b280891154e2a475abc499fadd"
+  integrity sha512-IojxFWMEJe0RQ7PQ3KXQsPIImNsbpPYpoZ+QUDrL8fAl/O27IX+LVLs74/UzEZy5uA2LD8Nz1AiwKr72vrkZQw==
 
-"@pagefind/linux-arm64@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@pagefind/linux-arm64/-/linux-arm64-1.3.0.tgz#cceb0391901736427738ee1232ff326a985eda8a"
-  integrity sha512-8lsxNAiBRUk72JvetSBXs4WRpYrQrVJXjlRRnOL6UCdBN9Nlsz0t7hWstRk36+JqHpGWOKYiuHLzGYqYAqoOnQ==
+"@pagefind/freebsd-x64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/freebsd-x64/-/freebsd-x64-1.5.2.tgz#cf6e279d938c2368731bb6558bf8f66a0c80a269"
+  integrity sha512-7EVzo9+0w+2cbe671BtMj10UlNo83I+HrLVLfRxO731svHRJKUfJ/mo05gU14pe9PCfpKNQT8FS3Xc/oDN6pOA==
 
-"@pagefind/linux-x64@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@pagefind/linux-x64/-/linux-x64-1.3.0.tgz#06ec4c2907780a75d2fb65a22203c5a48abe7a82"
-  integrity sha512-hAvqdPJv7A20Ucb6FQGE6jhjqy+vZ6pf+s2tFMNtMBG+fzcdc91uTw7aP/1Vo5plD0dAOHwdxfkyw0ugal4kcQ==
+"@pagefind/linux-arm64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/linux-arm64/-/linux-arm64-1.5.2.tgz#8b22cfc1a34c59033c5bd66676b7a86efba0f5f4"
+  integrity sha512-Ovt9+K35sqzn8H3ZMXGwls4TD/wMJuvRtShHIsmUQREmaxjrDEX7gHckRCrwYJ4XE1H1p6HkLz3wukrAnsfXQw==
 
-"@pagefind/windows-x64@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@pagefind/windows-x64/-/windows-x64-1.3.0.tgz#ce3394e5143aaca4850a33473a07628971773655"
-  integrity sha512-BR1bIRWOMqkf8IoU576YDhij1Wd/Zf2kX/kCI0b2qzCKC8wcc2GQJaaRMCpzvCCrmliO4vtJ6RITp/AnoYUUmQ==
+"@pagefind/linux-x64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/linux-x64/-/linux-x64-1.5.2.tgz#a733d1c0a9d905311f69f8868771c0cc42909fe4"
+  integrity sha512-V+tFqHKXhQKq/WqPBD67AFy7scn1/aZID00ws4fSDd+1daSi5UHR9VVlRrOUYKxn3VuFQYRD7lYXdZK1WED1YA==
+
+"@pagefind/windows-arm64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/windows-arm64/-/windows-arm64-1.5.2.tgz#6d6cb395a56136a92b91c0bd866f7fec3b0bbe7c"
+  integrity sha512-hN9Nh90fNW61nNRCW9ZyQrAj/mD0eRvmJ8NlTUzkbuW8kIzGJUi3cxjFkEcMZ5h/8FsKWD/VcouZl4yo1F7B6g==
+
+"@pagefind/windows-x64@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@pagefind/windows-x64/-/windows-x64-1.5.2.tgz#931fdbc9f00f72057950cd260ef965d4fd02a92e"
+  integrity sha512-Fa2Iyw7kaDRzGMfNYNUXNW2zbL5FQVDgSOcbDHdzBrDEdpqOqg8TcZ68F22ol6NJ9IGzvUdmeyZypLW5dyhqsg==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -90,10 +100,26 @@ autoprefixer@^10.4.19:
     picocolors "^1.0.1"
     postcss-value-parser "^4.2.0"
 
+autoprefixer@^10.4.21:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.5.0.tgz#33d87e443430f020a0f85319d6ff1593cb291be9"
+  integrity sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==
+  dependencies:
+    browserslist "^4.28.2"
+    caniuse-lite "^1.0.30001787"
+    fraction.js "^5.3.4"
+    picocolors "^1.1.1"
+    postcss-value-parser "^4.2.0"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+baseline-browser-mapping@^2.10.12:
+  version "2.10.34"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.34.tgz#dedb606362446777cfe328d30d4ee15056d06303"
+  integrity sha512-IMDedajPifLnHNY0X9n8hKxRTQ6/eTHwr5bDo04WnuqxyKw6LYtQywCuuqPZwhl3aBXMvQpJov42GLCwRRdQzw==
 
 binary-extensions@^2.0.0:
   version "2.3.0"
@@ -130,6 +156,17 @@ browserslist@^4.0.0, browserslist@^4.21.4, browserslist@^4.23.0, browserslist@^4
     node-releases "^2.0.19"
     update-browserslist-db "^1.1.1"
 
+browserslist@^4.28.2:
+  version "4.28.2"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.28.2.tgz#f50b65362ef48974ca9f50b3680566d786b811d2"
+  integrity sha512-48xSriZYYg+8qXna9kwqjIVzuQxi+KYWp2+5nCYnYKPTr0LvD89Jqk2Or5ogxz0NUMfIjhh2lIUX/LyX9B4oIg==
+  dependencies:
+    baseline-browser-mapping "^2.10.12"
+    caniuse-lite "^1.0.30001782"
+    electron-to-chromium "^1.5.328"
+    node-releases "^2.0.36"
+    update-browserslist-db "^1.2.3"
+
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -144,6 +181,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001646, caniuse-lite@^1.0.30001688:
   version "1.0.30001697"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001697.tgz#040bbbb54463c4b4b3377c716b34a322d16e6fc7"
   integrity sha512-GwNPlWJin8E+d7Gxq96jxM6w0w+VFeyyXRsjU58emtkYqnbwHqXm5uT2uCmO0RQE9htWknOP4xtBlLmM/gWxvQ==
+
+caniuse-lite@^1.0.30001782, caniuse-lite@^1.0.30001787:
+  version "1.0.30001797"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001797.tgz#1332709e1439f01ff92085dd17001e0a45897ec0"
+  integrity sha512-l8xKG+gwAIExZGl9FrF7KUwuOmk6wbEPC9Xoy/RtnWv1XG0Q4LFlagaLpUv3Kiza3W/wm27zy0yWJEieYKAP6w==
 
 chokidar@^3.3.0:
   version "3.6.0"
@@ -446,6 +488,11 @@ domutils@^3.0.1:
     domelementtype "^2.3.0"
     domhandler "^5.0.3"
 
+electron-to-chromium@^1.5.328:
+  version "1.5.368"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.368.tgz#8e8d4600c5f5f01e891f8f843b4a941afb640412"
+  integrity sha512-7RckJJK4uESJF9PxvfMWd3TGqIiieUTG4HxnKaKuIpGbcr+r2ZEB3g2gAhCP3Fqm42vJSzLfgab9eva/C4/XVw==
+
 electron-to-chromium@^1.5.73:
   version "1.5.93"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.93.tgz#6fae820ac8bb772a841aa67fce5389e6c6da7ba2"
@@ -500,6 +547,11 @@ fraction.js@^4.3.7:
   version "4.3.7"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
+
+fraction.js@^5.3.4:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-5.3.4.tgz#8c0fcc6a9908262df4ed197427bdeef563e0699a"
+  integrity sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==
 
 fs-extra@^10.0.0:
   version "10.1.0"
@@ -728,6 +780,11 @@ node-releases@^2.0.19:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.19.tgz#9e445a52950951ec4d177d843af370b411caf314"
   integrity sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==
 
+node-releases@^2.0.36:
+  version "2.0.47"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.47.tgz#521bb2786da8eb140b748841c0b3b3a75334ffc4"
+  integrity sha512-Uzmd6LXpouKo8EUK68IjH4+E01w/hXyV3R3g/geCJo+rXLNfh1xucB+LOzYEOQPSiUK3h/xZf0cQGcSsmyL2Og==
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
@@ -758,28 +815,31 @@ once@^1.3.0:
     wrappy "1"
 
 osuny@./themes/osuny:
-  version "7.0.1"
+  version "9.2.0"
   dependencies:
+    autoprefixer "^10.4.21"
     cssnano "^5"
     cssnano-preset-advanced "^6.0.1"
     intersection-observer "^0"
     leaflet "^1"
-    pagefind "^1"
+    pagefind "^1.5"
     postcss "^8"
     postcss-cli "^9"
     postcss-sass "^0"
     shelljs "^0"
 
-pagefind@^1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/pagefind/-/pagefind-1.3.0.tgz#467560447dcc7bbe590f1b888cc8bc733bb377fa"
-  integrity sha512-8KPLGT5g9s+olKMRTU9LFekLizkVIu9tes90O1/aigJ0T5LmyPqTzGJrETnSw3meSYg58YH7JTzhTTW/3z6VAw==
+pagefind@^1.5:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/pagefind/-/pagefind-1.5.2.tgz#447dd80018d7fd0c2924a56639f7b72bbbd1f165"
+  integrity sha512-XTUaK0hXMCu2jszWE584JGQT7y284TmMV9l/HX3rnG5uo3rHI/uHU56XTyyyPFjeWEBxECbAi0CaFDJOONtG0Q==
   optionalDependencies:
-    "@pagefind/darwin-arm64" "1.3.0"
-    "@pagefind/darwin-x64" "1.3.0"
-    "@pagefind/linux-arm64" "1.3.0"
-    "@pagefind/linux-x64" "1.3.0"
-    "@pagefind/windows-x64" "1.3.0"
+    "@pagefind/darwin-arm64" "1.5.2"
+    "@pagefind/darwin-x64" "1.5.2"
+    "@pagefind/freebsd-x64" "1.5.2"
+    "@pagefind/linux-arm64" "1.5.2"
+    "@pagefind/linux-x64" "1.5.2"
+    "@pagefind/windows-arm64" "1.5.2"
+    "@pagefind/windows-x64" "1.5.2"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -1465,6 +1525,14 @@ update-browserslist-db@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.1.2.tgz#97e9c96ab0ae7bcac08e9ae5151d26e6bc6b5580"
   integrity sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==
+  dependencies:
+    escalade "^3.2.0"
+    picocolors "^1.1.1"
+
+update-browserslist-db@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz#64d76db58713136acbeb4c49114366cc6cc2e80d"
+  integrity sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==
   dependencies:
     escalade "^3.2.0"
     picocolors "^1.1.1"
