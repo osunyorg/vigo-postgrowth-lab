@@ -75,4 +75,19 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/en/events/_index.html
+- title: T·I·A·S Ciencia
+  slug: t-i-a-s-ciencia
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: LivingLab (Citizen Participation)
+    slug: livinglab-citizen-participation
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+    descendants_targets: []
+  descendants_targets:
+  - ''
 
