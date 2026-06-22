@@ -88,6 +88,13 @@ items:
     new_tab: false
     children: []
     descendants_targets: []
+  - title: Dissemination and knowledge transfer
+    slug: dissemination-and-knowledge-transfer
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+    descendants_targets: []
   descendants_targets:
   - ''
 
