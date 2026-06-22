@@ -75,8 +75,8 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/en/events/_index.html
-- title: T·I·A·S Ciencia
-  slug: t-i-a-s-ciencia
+- title: T·I·A·S Science
+  slug: t-i-a-s-science
   target: ''
   kind: blank
   new_tab: false
