@@ -327,6 +327,10 @@ from = "/team/mario-pansera/index.html"
 to = "/people/mario-pansera/"
 
 [[redirects]]
+from = "/files/2026/index.html"
+to = "/files/2026/2024-residence-permit-renewalpdf/"
+
+[[redirects]]
 from = "/agenda/2024-03-18-adrianalmazan/index.html"
 to = "/agenda/2024/seminar-adrian-almazan/"
 
