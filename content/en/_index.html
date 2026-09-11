@@ -176,6 +176,48 @@ contents:
 
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: "/agenda/home-agenda/"
+      category:
+        permalink: "/agenda/home-agenda/"
+        path: "/events_categories/home-agenda"
+        slug: "home-agenda"
+        file: "content/en/events_categories/home-agenda/_index.html"
+      events:
+        - permalink: "/agenda/2026/seminar-17-september/"
+          path: "/events/2026/09/17-seminar-17-september"
+          slug: "seminar-17-september"
+          file: "content/en/events/2026/09/17-seminar-17-september.html"
+          name: >-
+            Seminar 17 September - Virginia Varallo, Ellem Alves, Odenira Corrêa Dias
+
+      quantity: 1
 
   - kind: block
     template: pages
