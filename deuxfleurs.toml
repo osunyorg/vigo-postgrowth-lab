@@ -271,6 +271,10 @@ from = "/projects/2024-postgrowth-s-a/index.html"
 to = "/portfolio/2024-postgrowth-s-a/"
 
 [[redirects]]
+from = "/agenda/2026/pescrap-i-jornada-de-co-diseno-del-sistema-de-responsabilidad-ampliada-del-productor-rap-para-redes/index.html"
+to = "/agenda/2026/pescrap-i-jornada/"
+
+[[redirects]]
 from = "/agenda/2024-04-11-workshop-returning-to-the-roots-returning-to-growth/index.html"
 to = "/agenda/2024/primavera-decrecemento-volvendo-as-raices/"
 
