@@ -227,6 +227,10 @@ from = "/news/2025-11-24-attract-vi-conference-on-technology-for-the-common-good
 to = "/news/2025-11-22-attract-vi-conference-on-technology-for-the-common-good/"
 
 [[redirects]]
+from = "/news/2026-09-24-lloveras-presents-british-academy/index.html"
+to = "/news/2026-09-11-lloveras-presents-british-academy/"
+
+[[redirects]]
 from = "/agenda/2021-10-27-seminario-de-investigacion-gennaro-ascione-unthinking-capital-a-teratologic-approach-to-concept-form/index.html"
 to = "/agenda/2021/seminario-de-investigacion-gennaro-ascione-unthinking-capital-a-teratologic-approach-to-concept-form/"
 
