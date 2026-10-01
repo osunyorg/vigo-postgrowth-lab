@@ -391,6 +391,10 @@ from = "/agenda/2023-05-08-sts-conference-graz-2023/index.html"
 to = "/agenda/2023/sts-conference-graz-2023/"
 
 [[redirects]]
+from = "/spark4b/index.html"
+to = "/projects/spark4b/"
+
+[[redirects]]
 from = "/news/2026-05-09-curso-qualitative-methods-in-the-social-sciences/index.html"
 to = "/news/2026-05-09-qualitative-methods-in-the-social-sciences/"
 
