@@ -2,13 +2,9 @@
   <div class="footer-site">
     <h2>Contact Us</h2>
     {{ partial "footer/site.html" }}
-    {{ with (or site.Params.social site.Data.website.social) }}
-    {{ with .email }}
     <span class="email">
-      Email: <a href="mailto:{{ . }}" rel="noreferrer" title="Email" target="_blank">{{ . }}</a>
+      <a href="mailto:pgilab@uvigo.gal" rel="noreferrer" title="Email">pgilab@uvigo.gal</a>
     </span>
-    {{ end}}
-    {{end}}
   </div>
   <div class="footer-social">
     <h2>Follow Us</h2>
