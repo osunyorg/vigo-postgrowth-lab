@@ -367,6 +367,10 @@ from = "/news/2024-01-15-call-for-papers-for-a-special-issue/index.html"
 to = "/news/2022-04-01-call-for-papers-for-a-special-issue/"
 
 [[redirects]]
+from = "/agenda/2027/rythms-of-innovation/index.html"
+to = "/agenda/2027/rhythms-of-innovation/"
+
+[[redirects]]
 from = "/team/elena-ojea/index.html"
 to = "/people/elena-ojea/"
 
