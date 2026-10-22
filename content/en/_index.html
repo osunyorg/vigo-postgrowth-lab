@@ -173,6 +173,48 @@ contents:
         <p><a href="/about">Learn more</a></p>
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: "/agenda/home-agenda/"
+      category:
+        permalink: "/agenda/home-agenda/"
+        path: "/events_categories/home-agenda"
+        slug: "home-agenda"
+        file: "content/en/events_categories/home-agenda/_index.html"
+      events:
+        - permalink: "/agenda/2027/rythms-of-innovation/"
+          path: "/events/2027/04/22-rythms-of-innovation"
+          slug: "rythms-of-innovation"
+          file: "content/en/events/2027/04/22-rythms-of-innovation.html"
+          name: >-
+            Workshop: The Rythms of Innovation
+
+      quantity: 1
 
   - kind: block
     template: pages
